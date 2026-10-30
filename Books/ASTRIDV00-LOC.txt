@@ -1,0 +1,110 @@
+Title: Astrid's Guide to Vampirism
+Author: Astrid
+IsNaughty: False
+Price: 100
+IsUnique: True
+WhenVarSet:
+Content:
+[/center]Astrid's Guide to Vampirism[/left]
+
+Do not trouble yourself with how this book came to be among your things. Books like this have a habit of choosing their readers.
+
+I am Astrid, sole apprentice to the Worm King Mannimarco. I have been a student of the gift for longer than your kingdom has had its current name, and I have learned that the gift is wasted on the uninstructed — squandered by fledglings who wake in the dark knowing nothing, fear everything, and are ash by winter. This book exists so that you will not be one of them.
+
+If you are mortal as you read this, read carefully. These pages are more than just instruction - they are an offer.
+
+[/center]The Offer[/left]
+
+When you have grown enough to survive what I would give you, this book will ask you a question. Answer it honestly. Say no, and these pages will go on being merely a book.
+
+Say yes, and you will sicken. You will dream. And on the third day you will die, becoming so much more than you are now.
+
+[/center]Bloodlines[/left]
+
+The blood will remake you, my student, and it carries one of nine names. When you rise, one of them will rise with you, and it will shape your gift.
+
+Anthotis: +20 Intelligence
+
+Garlythi: Blood Surge also grants a Shield effect for its duration.
+
+Haarvenu: Adds the Vampiric Ice spell.
+
+Khulari: While Blood Surge is active, weapon hits have a 10% chance to inflict Paralysis.
+
+Lyrezi: Mist Form also grants Invisibility for its duration.
+
+Montalion: +10 Willpower.
+
+Selenu: Blood Surge also grants Fire Immunity for its duration.
+
+Thrafey: Quicken Blood's health and fatigue returns are increased by 10%
+
+Vraseth: Blood Surge also boosts the Running skill by the same amount as its weapon-skill bonus.
+
+[/center]The Hunger[/left]
+
+Understand this before all else: you now feed on blood to survive. You must feed to keep the hunger at bay, but you can also draw upon it to wield great power.  Run dry, and it will devour you.
+
+[/center]Humanity[/left]
+
+Unlike the mindless undead, you retain a measure of what you once were. However, the more mortal lives you take, the more of a beast you become — and your power will grow. Some have rejected that power, and rumors say some have even conquered the sun by doing so. Don’t listen to those fools. 
+
+[/center]The Sun[/left]
+
+The sun will burn you if you remain directly in its rays. Carry a cloak and put up your hood, and you should be able to survive the day, though the sun will weaken you nevertheless.
+
+[/center]The Hunt[/left]
+
+Feeding is not a transaction. It is the central art of what you are now, and every hunt is a small story whose ending you must earn. (Use a feed key near any townsperson to start a narrative hunt). You may also feed upon those you have slain or have subjected to your will. However, if you happen to be a bleeding heart, you can always drink the blood of animals, though you will starve more often than not. (Use the feed key while in the wilderness to start a hunt)
+
+[/center]Sanctuaries[/left]
+
+The Dark Brotherhood keeps a warm place at its hearth for our kind, and will allow you to feed freely under their roof. Only never lose yourself there. They forgive hunger. They do not forgive frenzy.
+
+[/center]Sacred Ground[/left]
+
+The temples are another matter. The stones themselves know what you are, and a starving vampire among all those gathered, trusting pulses, is a lit candle in a granary. I will not tell you what happens when the beast slips its leash on holy ground. I will only tell you that I have done it once, in four hundred years, and I do not speak of it.
+
+[/center]Your Court[/left]
+
+As you grow in your gift, you will eventually seek servants to meet your need. While hunting, you will occasionally find a soul suitable to be your thrall or progeny. Offer them blood, and they will be yours. 
+
+If you prefer more direct methods, you can always break their minds with your Dominate spell.
+
+How many court members you can manage at once is entirely a matter of your disposition and will. Human hearts, it turns out, have less room for enslaved people.
+
+[/center]Blood Arts[/left]
+
+These are the gifts the blood grants. Use them well.
+
+Blood Sense: Toggle. Sense living creatures through walls. Quest targets appear in a different color than other creatures.
+
+Vampiric Drain: Free. Drains every corpse within 10 feet at once. Blood gained per corpse scales with its max health (minimum 1). Undead, daedra, and golem corpses give nothing.
+
+Mesmerize: Self-cast. The next townsperson you speak to opens a command menu: Loot their pockets or Interrogate them (they will always answer). It also attempts to pacify human enemies within 10 feet. A pacified enemy can be spoken to, allowing your to feed on them, loot their inventory, or interrogate them for the direction to your quest target. This spell does not affect non-humans
+
+Dominate: Forces a living creature to fight for you. Chance and duration both scale with lower Humanity. This spell does not affect undead or daedra. Dominated creatures count against your court's capacity.
+
+Summon Court: Free. Teleports every thrall, vampire, and dominated creature to your side.
+
+Devour Thrall: Free. Single target. Instantly kills one of your own thralls, vampires, or dominated creatures and grants blood as feeding on them would. 
+
+Vampiric Flames: Area burst of fire that scales with lower humanity.
+
+Vampiric Ice (Haarvenu clan only): Area burst of ice that scales with lower humanity
+
+Blood Surge: All weapon skills and Hand-to-Hand gain a bonus for 10 rounds: +10 at Humanity 6–10, +20 at Humanity 1–5, +30 at Humanity 0. 
+
+Mist Form: Toggle. 1 Blood Point to activate, then 1 per 4 rounds while active. Levitate, pass through doors and enemies, and gain immunity to mundane harm. However, you cannot attack or cast. At 0 blood, you pay upkeep in health instead.
+
+Quicken Blood: Converts 1 Blood Point into Health and Fatigue.
+
+Suppress Beast: Suppresses all vampiric bonuses for 24 hours and grants +1 Humanity. Usable once per day. 
+
+Hunter's Sight: Toggle. Night vision.
+
+[/center]A Closing Word[/left]
+
+You will be tempted, in your first years, to believe the gift is about power. It is not. Power is merely what the gift pays its students. It's about hunger. Feed it well, and you will survive for centuries. Reject it, and die to the first hunter that crosses your path.
+
+— Astrid the Witch

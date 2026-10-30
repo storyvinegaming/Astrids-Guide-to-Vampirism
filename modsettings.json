@@ -1,0 +1,280 @@
+{
+    "Version": "1.0.0",
+    "Sections": [
+        {
+            "Name": "General",
+            "Description": "General mod settings.",
+            "IsAdvanced": false,
+            "Keys": [
+                {
+                    "Value": false,
+                    "Name": "Keep Original Head On Paper Doll",
+                    "Description": "If enabled, the paper doll shows your character's normal racial head.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                },
+                {
+                    "Min": 1,
+                    "Max": 100,
+                    "Value": 35,
+                    "Name": "Hunter's Sight Light Range",
+                    "Description": "How far your sight reaches.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+                },
+                {
+                    "Value": true,
+                    "Name": "Hunter's Sight Screen Tint",
+                    "Description": "If disabled, Hunter's Sight no longer tints the screen.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                },
+                {
+                    "Value": {
+                        "r": 255,
+                        "g": 102,
+                        "b": 89,
+                        "a": 255
+                    },
+                    "Name": "Hunter's Sight Light Color",
+                    "Description": "The color of the light attached to you.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ColorKey"
+                },
+                {
+                    "Value": {
+                        "r": 140,
+                        "g": 13,
+                        "b": 13,
+                        "a": 26
+                    },
+                    "Name": "Hunter's Sight Tint Color",
+                    "Description": "The color of the screen tint Hunter's Sight applies.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ColorKey"
+                },
+                {
+                    "Min": 0,
+                    "Max": 100,
+                    "Value": 10,
+                    "Name": "Hunter's Sight Tint Transparency",
+                    "Description": "Opacity of the Hunter's Sight screen tint.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+                },
+                {
+                    "Min": 1,
+                    "Max": 200,
+                    "Value": 200,
+                    "Name": "Blood Sense Detection Range",
+                    "Description": "How far, in feet, Blood Sense detects living creatures while active.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+                },
+                {
+                    "Min": 1,
+                    "Max": 5,
+                    "Value": 1,
+                    "Name": "Blood Sense Refresh Interval",
+                    "Description": "How often, in seconds, Blood Sense rescans for targets while active. Raise if you notice lag.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+                },
+                {
+                    "Min": 1,
+                    "Max": 100,
+                    "Value": 20,
+                    "Name": "Vampiric Drain Range",
+                    "Description": "How far, in feet, Vampiric Drain reaches to drain nearby corpses at once.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+                },
+                {
+                    "Value": true,
+                    "Name": "Show Blood Tracker",
+                    "Description": "Shows a row of ten dots on the HUD tracking your current Blood Points.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                },
+                {
+                    "Options": [
+                        "Top Left",
+                        "Top Right",
+                        "Bottom Left",
+                        "Bottom Right"
+                    ],
+                    "Value": 0,
+                    "Name": "Blood Tracker Position",
+                    "Description": "Which corner of the screen the Blood Point tracker appears in.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.MultipleChoiceKey"
+                },
+                {
+                    "Min": 10,
+                    "Max": 100,
+                    "Value": 40,
+                    "Name": "Corpse Blood Divisor",
+                    "Description": "Monster/enemy corpses grant (max HP / this number) blood, minimum 1 - lower means more generous corpse draining.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+                },
+                {
+                    "Min": 5,
+                    "Max": 50,
+                    "Value": 20,
+                    "Name": "Desperate Casting HP Cost %",
+                    "Description": "Casting a blood-costing spell with insufficient Blood Points no longer refuses - each missing point instead costs this percent of your maximum Health, paid directly.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+                },
+                {
+                    "Min": 1,
+                    "Max": 20,
+                    "Value": 4,
+                    "Name": "Dominate Upkeep Divisor",
+                    "Description": "A Dominated creature's upkeep cost against your shared legion budget is (its max HP / this number) - lower means Dominate can hold tougher creatures for the same budget.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+                },
+                {
+                    "Value": false,
+                    "Name": "Allies Ignore Each Other's Collision",
+                    "Description": "Thralls, created vampires, and Dominated creatures normally jostle for space like any other pack of creatures. Enable to let them pass through each other too, so a large court never jams up a corridor.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                },
+                {
+                    "Value": false,
+                    "Name": "Permanent Dominate",
+                    "Description": "Dominated creatures never revert to hostile on their own duration expiring. The shared legion budget still applies - a permanent Dominate can still be released early if it's your oldest ally and the budget can no longer hold it.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                },
+                {
+                    "Value": false,
+                    "Name": "Vampiric Flames/Ice Spare Caster",
+                    "Description": "Vampiric Flames and Vampiric Ice will not damage you, even if you're standing in your own blast.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                },
+                {
+                    "Value": false,
+                    "Name": "Vampiric Flames/Ice Spare Allies",
+                    "Description": "Vampiric Flames and Vampiric Ice will not damage your thralls, created vampires, or Dominated creatures caught in the blast.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                },
+                {
+                    "Value": false,
+                    "Name": "Allow Daylight Arrival",
+                    "Description": "Vanilla DFU always force-delays a vampire's fast travel arrival until dusk if it would otherwise land between 6am and 6pm. Enable to allow arriving in broad daylight instead.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                }
+            ],
+            "$version": "v1"
+        },
+        {
+            "Name": "Feeding",
+            "Description": "Sneak-feeding on NPCs in homes and inns.",
+            "IsAdvanced": false,
+            "Keys": [
+                {
+                    "Options": [
+                        "None",
+                        "F",
+                        "V",
+                        "N",
+                        "Custom Key Bind"
+                    ],
+                    "Value": 1,
+                    "Name": "Sneak Feed Key",
+                    "Description": "Key used to open the Feed/Pickpocket/Cancel menu when looking at a townsperson indoors.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.MultipleChoiceKey"
+                },
+                {
+                    "Value": "",
+                    "Name": "Sneak Feed Custom Key Bind",
+                    "Description": "Custom key bind for sneak-feeding, used if Sneak Feed Key above is set to Custom Key Bind.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.TextKey"
+                },
+                {
+                    "Value": true,
+                    "Name": "Frenzy Events",
+                    "Description": "At 0 Blood Points, lingering near townspeople risks an involuntary feed attempt, resisted by Willpower.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                },
+                {
+                    "Value": true,
+                    "Name": "Feed Scene Music",
+                    "Description": "Fades the game's own music out and a heartbeat track in while a Narrative Feeding Scene is on screen. Disable to keep your normal music playing through scenes instead.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                },
+                {
+                    "Value": true,
+                    "Name": "Feed Scene Voice Acting",
+                    "Description": "Plays a recorded voice line for each Narrative Feeding Scene message, when one exists for it. Disable to read scenes silently.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                },
+                {
+                    "Min": 0,
+                    "Max": 100,
+                    "Value": 50,
+                    "Name": "Scene Complication Chance",
+                    "Description": "Percent chance a feeding scene includes a middle complication beat. 0 means scenes are pure flavor framing with no middle beat.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+                },
+                {
+                    "Min": 0,
+                    "Max": 8,
+                    "Value": 3,
+                    "Name": "Night Walker Count",
+                    "Description": "Up to this many townspeople stay out on the streets at night instead of all going indoors, giving a vampire someone to hunt after dark. 0 disables this entirely.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+                },
+                {
+                    "Value": true,
+                    "Name": "Populate Residences At Night",
+                    "Description": "Residence interiors normally empty outside their open hours (most houses, roughly 1800-0600) stay populated instead, giving a vampire someone to feed on indoors at night. Player-owned houses are never affected.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                },
+                {
+                    "Min": 0,
+                    "Max": 48,
+                    "Value": 12,
+                    "Name": "Animal Hunt Cooldown Hours",
+                    "Description": "Hours between wilderness animal hunt attempts (the feed key's own wilderness recovery valve, when no townsperson is in reach). 0 disables the cooldown entirely.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+                },
+                {
+                    "Min": 0,
+                    "Max": 100,
+                    "Value": 2,
+                    "Name": "Create Vampire Offer Chance",
+                    "Description": "Percent chance, after a successful non-violent feeding scene, that the victim is offered as a rare Create Vampire opportunity. Checked before the Create Thrall offer below; 0 disables it.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+                },
+                {
+                    "Min": 0,
+                    "Max": 100,
+                    "Value": 10,
+                    "Name": "Create Thrall Offer Chance",
+                    "Description": "Percent chance, after a successful non-violent feeding scene, that the victim is offered as a Create Thrall opportunity - only checked if the Create Vampire offer above didn't fire. 0 disables it.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+                }
+            ],
+            "$version": "v1"
+        }
+    ]
+}

@@ -1,0 +1,3044 @@
+{
+  "fragments": [
+    {
+      "id": "opening_residence_asleep_01",
+      "type": "opening",
+      "tags": [
+        "residence",
+        "indoor",
+        "night"
+      ],
+      "text": "The house holds its breath around you. Your prey sleeps like someone who has never once needed to wonder what stands at the foot of their bed - one arm flung across the blanket, pulse ticking away in the dark like a gift left unwrapped.",
+      "approaches": [
+        {
+          "label": "Cross the room without waking so much as the dust",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Read their sleeping pulse and take them between breaths",
+          "roll": "Medical",
+          "method": "opportunity"
+        },
+        {
+          "label": "Position yourself where even waking eyes would miss you",
+          "roll": "Backstabbing",
+          "method": "opportunity"
+        },
+        {
+          "label": "Fall upon them before waking becomes an option",
+          "roll": "Critical Strike",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "opening_residence_asleep_02",
+      "type": "opening",
+      "tags": [
+        "residence",
+        "indoor",
+        "night"
+      ],
+      "text": "You know this quiet. It belongs to locked doors and banked fires and people who believe, truly believe, that walls keep them safe. Your prey sleeps soundly at the heart of that belief. It would almost be a shame to correct them. Almost.",
+      "approaches": [
+        {
+          "label": "Drift through the dark, one more thing the walls never kept out",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Work the bedroom latch, patient and silent",
+          "roll": "Lockpicking",
+          "method": "stealth"
+        },
+        {
+          "label": "Deepen the dark around the bed before you cross it",
+          "roll": "Illusion",
+          "method": "opportunity"
+        },
+        {
+          "label": "Grant them a peaceful demise.",
+          "roll": "Critical Strike",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "opening_residence_awake_01",
+      "type": "opening",
+      "tags": [
+        "residence",
+        "indoor",
+        "night"
+      ],
+      "text": "Your prey sits alone with a guttering candle and a cup of wine they've stopped drinking, staring at nothing in particular. The rest of this place sleeps. They think they're the only one awake in the world. How wrong they are is currently standing in the doorway.",
+      "approaches": [
+        {
+          "label": "Thicken the shadows around their candle's little island",
+          "roll": "Illusion",
+          "method": "opportunity"
+        },
+        {
+          "label": "Knock softly - a late traveler seeking refuge",
+          "roll": "Etiquette",
+          "method": "etiquette"
+        },
+        {
+          "label": "Wait just past the light and take them when they rise",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Cross the candlelight and simply take them",
+          "roll": "Hand-to-Hand",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "opening_residence_awake_02",
+      "type": "opening",
+      "tags": [
+        "residence",
+        "indoor",
+        "night"
+      ],
+      "text": "Through the crack of the door, you watch your prey move through the small rituals of a life - banking the fire, latching a shutter, humming something tuneless. It's all terribly ordinary. Your presence is the one detail the evening has failed to account for.",
+      "approaches": [
+        {
+          "label": "With a wave of your hand, snuff out the fire.",
+          "roll": "Thaumaturgy",
+          "method": "opportunity"
+        },
+        {
+          "label": "Slip past while their hands are busy and their mind is elsewhere.",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Tap at the shutter and play the apologetic stranger.",
+          "roll": "Etiquette",
+          "method": "etiquette"
+        },
+        {
+          "label": "Interrupt their ritual. Permanently.",
+          "roll": "Backstabbing",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "opening_residence_lowhumanity_01",
+      "type": "opening",
+      "tags": [
+        "residence",
+        "indoor",
+        "night"
+      ],
+      "requires": {
+        "humanityMax": 3
+      },
+      "text": "You hear the blood before you see them - that slow, warm drumbeat beyond the door, absurdly loud to ears that have long since stopped pretending to be human. Your prey sleeps on. The part of you that once would have hesitated doesn't even bother to speak anymore.",
+      "approaches": [
+        {
+          "label": "Let the pulse itself guide you through the dark",
+          "roll": "Mysticism",
+          "method": "opportunity"
+        },
+        {
+          "label": "Stalk the sound of sleep to its source",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Still the beast's tremor before it spoils the work",
+          "roll": "Thaumaturgy",
+          "method": "opportunity"
+        },
+        {
+          "label": "Let the beast have what it followed here",
+          "roll": "Hand-to-Hand",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "opening_inn_crowd_01",
+      "type": "opening",
+      "tags": [
+        "inn",
+        "indoor",
+        "night"
+      ],
+      "text": "The common room roars with firelight and bad singing, and not one soul in it is watching your prey nurse a final cup by the hearth, eyes at half-mast. A room full of witnesses, and every last one of them looking the wrong way. You do so appreciate a crowd.",
+      "approaches": [
+        {
+          "label": "Let the crowd itself carry you to them",
+          "roll": "Streetwise",
+          "method": "opportunity"
+        },
+        {
+          "label": "Buy them a drink and your undivided attention",
+          "roll": "Etiquette",
+          "method": "etiquette"
+        },
+        {
+          "label": "Slip behind them through the press of bodies",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Haul them from their stool and finish it in the open",
+          "roll": "Hand-to-Hand",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "opening_inn_crowd_02",
+      "type": "opening",
+      "tags": [
+        "inn",
+        "indoor",
+        "night"
+      ],
+      "text": "Someone is losing at dice, loudly. Someone else is falling in love. And your prey sits amid all of it, drunk enough to be friendly and tired enough to be careless. You smile. You do love the careless ones.",
+      "approaches": [
+        {
+          "label": "Send over a round on your coin and arrive as the benefactor",
+          "roll": "Mercantile",
+          "method": "opportunity"
+        },
+        {
+          "label": "Lose a few coins at their table and win their company",
+          "roll": "Etiquette",
+          "method": "etiquette"
+        },
+        {
+          "label": "Move through the din no one hears anything under",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Turn the night's revel red",
+          "roll": "Hand-to-Hand",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "opening_inn_corner_01",
+      "type": "opening",
+      "tags": [
+        "inn",
+        "indoor",
+        "night"
+      ],
+      "text": "Your prey has taken the far corner table, back to the wall, alone with an empty tankard and whatever thought keeps refilling it. The room forgot them an hour ago. You, on the other hand, find them fascinating.",
+      "approaches": [
+        {
+          "label": "Become too unremarkable for even a wary eye to hold",
+          "roll": "Illusion",
+          "method": "opportunity"
+        },
+        {
+          "label": "Take the chair across and ask what they're drinking to",
+          "roll": "Etiquette",
+          "method": "etiquette"
+        },
+        {
+          "label": "Approach along the wall where their eyes never go",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Take the seat behind them and never let them leave it",
+          "roll": "Backstabbing",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "opening_inn_corner_02",
+      "type": "opening",
+      "tags": [
+        "inn",
+        "indoor",
+        "latenight"
+      ],
+      "text": "The fire has burned to embers, and the singing has died to snores. Only your prey remains upright, and only barely - the last soul awake in this place, keeping a vigil over nothing at all. Well. Over nothing they know about.",
+      "approaches": [
+        {
+          "label": "Make eye contact with a grin, and let your spell lull them to sleep.",
+          "roll": "Thaumaturgy",
+          "method": "opportunity"
+        },
+        {
+          "label": "Cross the sleeping room without disturbing a single snore",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Keep them company for the candle's last inch",
+          "roll": "Etiquette",
+          "method": "etiquette"
+        },
+        {
+          "label": "Let the last soul awake join the sleepers - for good",
+          "roll": "Critical Strike",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "opening_inn_lowhumanity_01",
+      "type": "opening",
+      "tags": [
+        "inn",
+        "indoor",
+        "night"
+      ],
+      "requires": {
+        "humanityMax": 4
+      },
+      "text": "A room full of heartbeats, and you can pick out one from across it - a little quick, a little bright, seasoned with wine. The thing you've become has opinions about vintage. You let it look through your eyes a moment longer than you should.",
+      "approaches": [
+        {
+          "label": "Let your blood sense guide you to your prey. ",
+          "roll": "Mysticism",
+          "method": "opportunity"
+        },
+        {
+          "label": "Wear your last scraps of charm like a borrowed coat",
+          "roll": "Etiquette",
+          "method": "etiquette"
+        },
+        {
+          "label": "Shadow them the moment they rise to leave",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Stop pretending. Feed like what you truly are",
+          "roll": "Hand-to-Hand",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "opening_streets_night_01",
+      "type": "opening",
+      "tags": [
+        "streets",
+        "outdoor",
+        "night"
+      ],
+      "text": "Your prey walks this place with the loose, unhurried gait of someone nearly home - close enough to safety to stop thinking about it. Their footsteps are the only sound for a block in either direction. Yours, naturally, make none at all.",
+      "approaches": [
+        {
+          "label": "Overtake them by the parallel lane and be waiting ahead",
+          "roll": "Running",
+          "method": "opportunity"
+        },
+        {
+          "label": "Fall into step beside them, easy as an old friend",
+          "roll": "Streetwise",
+          "method": "etiquette"
+        },
+        {
+          "label": "Close the distance in their blind spot, footfall for footfall",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Run them down in the open street",
+          "roll": "Hand-to-Hand",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "opening_streets_night_02",
+      "type": "opening",
+      "tags": [
+        "streets",
+        "outdoor",
+        "night"
+      ],
+      "text": "Lantern to lantern, your prey crosses the pools of light with the serene confidence of the almost-home, and never once wonders about the stretches of dark in between. Those, as it happens, are spoken for.",
+      "approaches": [
+        {
+          "label": "Time the lantern-gaps and cross only in the dark",
+          "roll": "Dodging",
+          "method": "opportunity"
+        },
+        {
+          "label": "Hail them warmly from across the way",
+          "roll": "Etiquette",
+          "method": "etiquette"
+        },
+        {
+          "label": "Trail them just beyond the light's reach",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Drag them into the dark between the lanterns and feast",
+          "roll": "Hand-to-Hand",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "opening_streets_alley_01",
+      "type": "opening",
+      "tags": [
+        "streets",
+        "outdoor",
+        "night"
+      ],
+      "text": "The alley swallows what little the moon has to offer, and your prey cuts through it anyway - the way people do when they've walked a route a hundred times and never once needed to be afraid. Habit is such a tender thing. So easily fed upon.",
+      "approaches": [
+        {
+          "label": "Take the rooftops and drop where the alley narrows",
+          "roll": "Climbing",
+          "method": "opportunity"
+        },
+        {
+          "label": "Enter the alley ahead of them and simply wait",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Call out - a stranger asking directions in the dark",
+          "roll": "Etiquette",
+          "method": "etiquette"
+        },
+        {
+          "label": "Make the alley live up to its reputation",
+          "roll": "Backstabbing",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "opening_streets_lowhumanity_01",
+      "type": "opening",
+      "tags": [
+        "streets",
+        "outdoor",
+        "night"
+      ],
+      "requires": {
+        "humanityMax": 3
+      },
+      "text": "Three streets now you've followed your prey, close enough to smell them, patient in a way that has nothing of patience left in it - only appetite, waiting with its hands folded. They haven't noticed. They won't. That's rather the point of you now.",
+      "approaches": [
+        {
+          "label": "Herd them, street by street, into the dark ally you've chosen",
+          "roll": "Streetwise",
+          "method": "opportunity"
+        },
+        {
+          "label": "Move swiftly before they register the danger you pose.",
+          "roll": "Running",
+          "method": "opportunity"
+        },
+        {
+          "label": "Match their footsteps until yours disappear",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "End the chase the way the beast always intended",
+          "roll": "Hand-to-Hand",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "opening_palace_hall_01",
+      "type": "opening",
+      "tags": [
+        "palace",
+        "indoor",
+        "night"
+      ],
+      "text": "The great hall of this palace stands emptied of its court, torches burned low in their sconces. Your prey lingers by a window in more silk than sense, certain beyond question that the guards outside make them safe. The guards are outside. You are not.",
+      "approaches": [
+        {
+          "label": "Relieve them of a ring they'd miss - then helpfully find it",
+          "roll": "Pickpocket",
+          "method": "opportunity"
+        },
+        {
+          "label": "Offer the courtly grace they were raised to trust",
+          "roll": "Etiquette",
+          "method": "etiquette"
+        },
+        {
+          "label": "Ghost from pillar to pillar through the dying torchlight",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Spill noble blood on the noble floor",
+          "roll": "Hand-to-Hand",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "opening_palace_hall_02",
+      "type": "opening",
+      "tags": [
+        "palace",
+        "indoor",
+        "night"
+      ],
+      "text": "Wealth has a smell - rosewater and cold marble. But beneath it, your prey's pulse beats, utterly indistinguishable from a beggar's. You do love a palace. Nowhere else is the lie of safety built quite so beautifully.",
+      "approaches": [
+        {
+          "label": "Dim the sconces by slow degrees until the dark arrives with you",
+          "roll": "Illusion",
+          "method": "opportunity"
+        },
+        {
+          "label": "Admire the tapestries aloud; nobility never checks a flatterer's teeth",
+          "roll": "Etiquette",
+          "method": "etiquette"
+        },
+        {
+          "label": "Move only when the marble agrees to keep your secret",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Show this house what wealth cannot buy off",
+          "roll": "Critical Strike",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "opening_palace_corridor_01",
+      "type": "opening",
+      "tags": [
+        "palace",
+        "indoor",
+        "night"
+      ],
+      "text": "Two sets of guards you've slipped already to stand in this corridor, and the sheer audacity of it hums in you like a second heartbeat. Ahead, your prey walks unhurried through the house of their power, sure that nothing in the world would dare. Something dares.",
+      "approaches": [
+        {
+          "label": "Cross the gallery rail above and descend behind them",
+          "roll": "Jumping",
+          "method": "opportunity"
+        },
+        {
+          "label": "Walk as though the corridor belongs to you",
+          "roll": "Etiquette",
+          "method": "etiquette"
+        },
+        {
+          "label": "Keep to the seams of shadow between the sconces",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Strike from behind and let the corridor keep the secret",
+          "roll": "Backstabbing",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "opening_palace_lowhumanity_01",
+      "type": "opening",
+      "tags": [
+        "palace",
+        "indoor",
+        "night"
+      ],
+      "requires": {
+        "humanityMax": 4
+      },
+      "text": "Once, a place like this would have made you feel small. Now you move through these halls the way an owner walks a kennel, and your prey - titled, guarded, gilded - registers to you as precisely one thing. Nothing at all.",
+      "approaches": [
+        {
+          "label": "Follow the warmth through the marble like a scent",
+          "roll": "Mysticism",
+          "method": "opportunity"
+        },
+        {
+          "label": "Let the owner's calm carry you right past their notice",
+          "roll": "Etiquette",
+          "method": "etiquette"
+        },
+        {
+          "label": "Stalk the gleam of silk through the dark",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Cull the kennel",
+          "roll": "Hand-to-Hand",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "opening_wilderness_campfire_01",
+      "type": "opening",
+      "tags": [
+        "wilderness",
+        "outdoor",
+        "night"
+      ],
+      "text": "A single campfire gutters against the dark of this place, and your prey huddles at it, cloak drawn tight, watching the flames instead of the black beyond them. A reasonable choice. The flames, at least, aren't watching back.",
+      "approaches": [
+        {
+          "label": "Circle beyond the light and come in with the smoke",
+          "roll": "Dodging",
+          "method": "opportunity"
+        },
+        {
+          "label": "Step into the firelight, a fellow traveler in need of warmth",
+          "roll": "Etiquette",
+          "method": "etiquette"
+        },
+        {
+          "label": "Cross the dark ground the fire has blinded them to",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Snuff them out with their fire",
+          "roll": "Hand-to-Hand",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "opening_wilderness_campfire_02",
+      "type": "opening",
+      "tags": [
+        "wilderness",
+        "outdoor",
+        "night"
+      ],
+      "text": "Out here the night is honest - no lanterns, no walls, no pleasant fictions. Just your prey, their small ring of firelight, and the long dark pressing in from every side. You stand in the dark, of course. You find you rather belong to it.",
+      "approaches": [
+        {
+          "label": "Let the wild's own quiet carry you in",
+          "roll": "Mysticism",
+          "method": "opportunity"
+        },
+        {
+          "label": "Announce yourself from the treeline, harmless as the dark allows",
+          "roll": "Etiquette",
+          "method": "etiquette"
+        },
+        {
+          "label": "Come in low along the ground, patient as frost",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Give the honest dark something to witness",
+          "roll": "Backstabbing",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "opening_wilderness_pilgrim_01",
+      "type": "opening",
+      "tags": [
+        "wilderness",
+        "outdoor",
+        "night"
+      ],
+      "text": "Your prey has made camp beside the road, too far from the nearest town to hope for help and too spent from the day's miles to keep watch. Out here, no one is coming. It would be more accurate to say: no one else.",
+      "approaches": [
+        {
+          "label": "Deepen their exhaustion with a healer's knowing touch",
+          "roll": "Medical",
+          "method": "opportunity"
+        },
+        {
+          "label": "Wake them gently - one pilgrim meeting another",
+          "roll": "Etiquette",
+          "method": "etiquette"
+        },
+        {
+          "label": "Take them without ever troubling their dreams",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Grant the pilgrim their final rest",
+          "roll": "Critical Strike",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "opening_wilderness_road_01",
+      "type": "opening",
+      "tags": [
+        "wilderness",
+        "outdoor",
+        "night"
+      ],
+      "text": "The road unspools pale under the moon, and your prey walks it alone - late, tired, hurrying between nowhere and nowhere. Travelers vanish on roads like this all the time, you know. Wolves are blamed. The wolves, frankly, deserve better.",
+      "approaches": [
+        {
+          "label": "Pace them from the treeline and take them at the bend",
+          "roll": "Running",
+          "method": "opportunity"
+        },
+        {
+          "label": "Overtake them openly, one late traveler greeting another",
+          "roll": "Etiquette",
+          "method": "etiquette"
+        },
+        {
+          "label": "Wade the ditch-shadow alongside until the moment ripens",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Take them at the bend and leave the road one traveler short",
+          "roll": "Hand-to-Hand",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "opening_starving_desperation_01",
+      "type": "opening",
+      "tags": [],
+      "requires": {
+        "bloodMax": 1
+      },
+      "text": "The hunger stopped being a feeling some hours ago. It is simply what you are now - a want wearing your face. Your prey stands close enough to touch, and every voice in you that used to argue has gone very, very quiet. Do try to remember who's holding the leash.",
+      "approaches": [
+        {
+          "label": "Close the distance before the shaking in your hands betrays you",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Force the beast to wear a smile a moment longer",
+          "roll": "Etiquette",
+          "method": "etiquette"
+        },
+        {
+          "label": "Let the hunger do the hunting and simply follow it",
+          "roll": "Mysticism",
+          "method": "opportunity"
+        },
+        {
+          "label": "Stop fighting it",
+          "roll": "Hand-to-Hand",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "opening_starving_desperation_02",
+      "type": "opening",
+      "tags": [],
+      "requires": {
+        "bloodMax": 1
+      },
+      "text": "Your veins are dry riverbeds, and your prey is the sound of water. That is genuinely as far as your thinking goes at present. Whatever you intend here, intend it quickly - the beast has stopped waiting for permission and started counting your hesitations.",
+      "approaches": [
+        {
+          "label": "Move now, while want still resembles a plan",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Speak - if words still come when the veins are this dry",
+          "roll": "Etiquette",
+          "method": "etiquette"
+        },
+        {
+          "label": "Surrender the approach to instinct entirely",
+          "roll": "Mysticism",
+          "method": "opportunity"
+        },
+        {
+          "label": "Let go",
+          "roll": "Hand-to-Hand",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "opening_fallback_01",
+      "type": "opening",
+      "tags": [],
+      "text": "There they are. Your prey, unguarded, unwatched, and gloriously unaware - kept safe this long not by luck or vigilance, but by the simple fact that nothing like you had ever looked their way. That changes tonight.",
+      "approaches": [
+        {
+          "label": "Take the quiet way in",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Make yourself pleasant, then make yourself close",
+          "roll": "Etiquette",
+          "method": "etiquette"
+        },
+        {
+          "label": "Watch a while longer, and strike where habit blinds them",
+          "roll": "Streetwise",
+          "method": "opportunity"
+        },
+        {
+          "label": "End this now.",
+          "roll": "Hand-to-Hand",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "opening_fallback_02",
+      "type": "opening",
+      "tags": [],
+      "text": "You've marked your prey, and the night has obligingly arranged itself around the two of you - the quiet, the shadows, the world's brief inattention. All that remains is the question of how you'd like this to go. You do so love being asked.",
+      "approaches": [
+        {
+          "label": "Let the shadows do the introductions",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Begin with a smile; end with a secret",
+          "roll": "Etiquette",
+          "method": "etiquette"
+        },
+        {
+          "label": "Read the moment and take the door it opens",
+          "roll": "Streetwise",
+          "method": "opportunity"
+        },
+        {
+          "label": "Abandon subtlety entirely",
+          "roll": "Hand-to-Hand",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "complication_streets_watcher_01",
+      "type": "complication",
+      "tags": [
+        "streets"
+      ],
+      "text": "A figure loiters at the mouth of the street - watching you, or watching nothing; it's impossible to say. What can be said: they stand precisely between you and a clean approach, with the maddening patience of the truly idle.",
+      "choices": [
+        {
+          "label": "Read the street and slip past unseen",
+          "roll": "Streetwise",
+          "success": "bonus:10",
+          "failure": "penalty:15"
+        },
+        {
+          "label": "Wait them out",
+          "effect": "penalty:10"
+        },
+        {
+          "label": "Abandon the approach",
+          "effect": "abort"
+        }
+      ]
+    },
+    {
+      "id": "complication_streets_dog_01",
+      "type": "complication",
+      "tags": [
+        "streets"
+      ],
+      "text": "Somewhere down the block, a dog begins to bark - low, insistent, entirely certain. Dogs always know. It's one of their less endearing qualities.",
+      "choices": [
+        {
+          "label": "Wait for the barking to die down",
+          "effect": "penalty:5"
+        },
+        {
+          "label": "Move now, before it draws real attention",
+          "effect": "bonus:0"
+        },
+        {
+          "label": "This isn't worth the risk tonight",
+          "effect": "abort"
+        }
+      ]
+    },
+    {
+      "id": "complication_streets_lantern_01",
+      "type": "complication",
+      "tags": [
+        "streets"
+      ],
+      "text": "A watchman's lantern swings around the corner ahead, its beam wandering the cobbles with sleepy diligence. In a moment it will wander across you.",
+      "choices": [
+        {
+          "label": "Flow around the light, always a step outside it",
+          "roll": "Dodging",
+          "success": "bonus:10",
+          "failure": "penalty:10"
+        },
+        {
+          "label": "Stand still and trust the shadows",
+          "effect": "penalty:5"
+        },
+        {
+          "label": "Let the watch pass and the night with it",
+          "effect": "abort"
+        }
+      ]
+    },
+    {
+      "id": "complication_streets_beggar_01",
+      "type": "complication",
+      "tags": [
+        "streets"
+      ],
+      "text": "A beggar stirs in a doorway you'd taken for empty, and their eyes - old, unclouded, uncomfortably awake - find yours and simply watch. The poor see everything. It's the one wealth no one can take from them.",
+      "choices": [
+        {
+          "label": "Press a coin into their palm and buy the night's silence",
+          "roll": "Mercantile",
+          "success": "bonus:10",
+          "failure": "penalty:10"
+        },
+        {
+          "label": "Meet their gaze until they decide they saw nothing",
+          "effect": "bonus:5"
+        },
+        {
+          "label": "Too many eyes tonight",
+          "effect": "abort"
+        }
+      ]
+    },
+    {
+      "id": "complication_palace_patrol_01",
+      "type": "complication",
+      "tags": [
+        "palace"
+      ],
+      "text": "Footsteps ring from the far end of the corridor - a guard's patrol, punctual as sin, and you have precisely one breath to decide what they'll find when they round the corner.",
+      "choices": [
+        {
+          "label": "Greet them with unbothered, practiced grace",
+          "roll": "Etiquette",
+          "success": "bonus:15",
+          "failure": "penalty:20"
+        },
+        {
+          "label": "Press into the shadow of a pillar",
+          "effect": "penalty:10"
+        },
+        {
+          "label": "Withdraw before they see you at all",
+          "effect": "abort"
+        }
+      ]
+    },
+    {
+      "id": "complication_palace_servant_01",
+      "type": "complication",
+      "tags": [
+        "palace"
+      ],
+      "text": "A servant dozes against the wall, a ring of keys at their belt rising and falling with each breath. Keys open doors. Doors are currently your entire profession.",
+      "choices": [
+        {
+          "label": "Lift the ring without troubling their dreams",
+          "roll": "Pickpocket",
+          "success": "bonus:15",
+          "failure": "penalty:15"
+        },
+        {
+          "label": "Leave the keys and rely on doors already open to you",
+          "effect": "bonus:0"
+        }
+      ]
+    },
+    {
+      "id": "complication_palace_illusion_01",
+      "type": "complication",
+      "tags": [
+        "palace"
+      ],
+      "text": "The corridor ahead is bright - candelabra at every arch, light laid down like a challenge. A house this proud of its illumination practically begs to be taught about the dark.",
+      "choices": [
+        {
+          "label": "Bend the light gently around yourself",
+          "roll": "Illusion",
+          "success": "bonus:15",
+          "failure": "penalty:10"
+        },
+        {
+          "label": "Cross it quickly and pray no one glances over",
+          "effect": "penalty:10"
+        },
+        {
+          "label": "Find another night, another wing",
+          "effect": "abort"
+        }
+      ]
+    },
+    {
+      "id": "complication_residence_door_01",
+      "type": "complication",
+      "tags": [
+        "residence"
+      ],
+      "text": "The inner door is latched. Not against you specifically - just the small nightly habit of people who believe latches matter. It stands between you and your prey all the same, smug in its little bracket.",
+      "choices": [
+        {
+          "label": "Work the latch, quiet and patient",
+          "roll": "Lockpicking",
+          "success": "bonus:10",
+          "failure": "penalty:15"
+        },
+        {
+          "label": "Let your spell open your way",
+          "roll": "Mysticism",
+          "success": "bonus:10",
+          "failure": "penalty:15"
+        },
+        {
+          "label": "Force it, and accept the noise",
+          "effect": "penalty:15"
+        },
+        {
+          "label": "Leave it shut and walk away",
+          "effect": "abort"
+        }
+      ]
+    },
+    {
+      "id": "complication_residence_stairs_01",
+      "type": "complication",
+      "tags": [
+        "residence",
+        "indoor"
+      ],
+      "text": "The staircase between you and your prey is old, dry, and gossipy - the kind of wood that announces every visitor to the whole sleeping house. The third step in particular has the look of an informant.",
+      "choices": [
+        {
+          "label": "Clear the treacherous steps in one silent bound",
+          "roll": "Jumping",
+          "success": "bonus:10",
+          "failure": "penalty:15"
+        },
+        {
+          "label": "Take each step at the edge, slow as syrup",
+          "effect": "penalty:5"
+        }
+      ]
+    },
+    {
+      "id": "complication_residence_mark_01",
+      "type": "complication",
+      "tags": [
+        "residence"
+      ],
+      "text": "If this is to end without a body to explain, the bite must be immaculate - no torn skin, nothing a physician would squint at twice. Craftsmanship, in other words. You do take pride in your work.",
+      "choices": [
+        {
+          "label": "Find the vein with a chirurgeon's care",
+          "roll": "Medical",
+          "success": "bonus:10",
+          "failure": "penalty:10"
+        },
+        {
+          "label": "The mark is not tonight's concern",
+          "effect": "bonus:0"
+        }
+      ]
+    },
+    {
+      "id": "complication_residence_name_01",
+      "type": "complication",
+      "tags": [
+        "residence"
+      ],
+      "text": "In their sleep, your prey murmurs a name - a child's, or a lover's, impossible to tell - and for one unguarded second the whole shape of what you're about to do sits plainly in the room with you. It waits, politely, to see what you'll make of it.",
+      "choices": [
+        {
+          "label": "Let the moment pass through you, and continue",
+          "effect": "bonus:0"
+        },
+        {
+          "label": "Withdraw, remembering what it was like to care for something besides yourself",
+          "effect": "humanity:+1"
+        }
+      ]
+    },
+    {
+      "id": "complication_residence_child_01",
+      "type": "complication",
+      "tags": [
+        "residence",
+        "indoor"
+      ],
+      "text": "Your foot finds a child's wooden toy in the dark - a little painted horse, one wheel missing - and the clatter it nearly makes would have woken the whole house. Somewhere nearby, then, a smaller heartbeat sleeps too. You navigate accordingly.",
+      "choices": [
+        {
+          "label": "Step with double care from here",
+          "effect": "penalty:5"
+        },
+        {
+          "label": "The house's sleepers are not your concern",
+          "effect": "bonus:0"
+        },
+        {
+          "label": "Not this house. Not tonight",
+          "effect": "humanity:+1"
+        }
+      ]
+    },
+    {
+      "id": "complication_inn_commotion_01",
+      "type": "complication",
+      "tags": [
+        "inn"
+      ],
+      "text": "A brawl erupts at the far end of the common room - chairs scraping, someone bellowing for the innkeeper - and for one glorious heartbeat, every eye in the place turns the wrong way at once. The gods do occasionally tip the waiter.",
+      "choices": [
+        {
+          "label": "Move now, before the moment closes",
+          "roll": "Running",
+          "success": "bonus:15",
+          "failure": "penalty:10"
+        },
+        {
+          "label": "Let the chaos settle first",
+          "effect": "penalty:5"
+        }
+      ]
+    },
+    {
+      "id": "complication_inn_recognition_01",
+      "type": "complication",
+      "tags": [
+        "inn"
+      ],
+      "text": "your prey seems to look directly at you - truly at you - before their gaze slides off, unfocused, and settles back into their cup. The body knows things the mind refuses to be told.",
+      "choices": [
+        {
+          "label": "Hold perfectly still until they lose interest",
+          "effect": "bonus:10"
+        },
+        {
+          "label": "Press the advantage while their guard is down",
+          "effect": "bonus:5"
+        }
+      ]
+    },
+    {
+      "id": "complication_inn_barkeep_01",
+      "type": "complication",
+      "tags": [
+        "inn"
+      ],
+      "text": "The barkeep is the wakeful sort - polishing the same tankard for the third time, eyes doing a slow circuit of the room. A professional noticer. Fortunately, professionals have rates.",
+      "choices": [
+        {
+          "label": "Overpay for a drink and purchase their blindness with it",
+          "roll": "Mercantile",
+          "success": "bonus:15",
+          "failure": "penalty:10"
+        },
+        {
+          "label": "Wait for their attention to find someone else",
+          "effect": "penalty:5"
+        }
+      ]
+    },
+    {
+      "id": "complication_inn_drunk_01",
+      "type": "complication",
+      "tags": [
+        "inn"
+      ],
+      "text": "A drunk lurches out of nowhere and drapes an arm across your shoulders, breathing sour fellowship into your face and calling you a name that belongs to someone else entirely. The universe, it seems, has a sense of humor.",
+      "choices": [
+        {
+          "label": "Play the old friend, laugh, and peel away smoothly",
+          "roll": "Etiquette",
+          "success": "bonus:10",
+          "failure": "penalty:10"
+        },
+        {
+          "label": "Shrug them off and keep moving",
+          "effect": "penalty:5"
+        }
+      ]
+    },
+    {
+      "id": "complication_wilderness_river_01",
+      "type": "complication",
+      "tags": [
+        "wilderness"
+      ],
+      "text": "The only silent path to the fire runs along the river's edge, half in the shallows, where the current will swallow your footsteps whole - provided the water agrees to keep your secret.",
+      "choices": [
+        {
+          "label": "Wade the shallows without a splash",
+          "roll": "Swimming",
+          "success": "bonus:10",
+          "failure": "penalty:10"
+        },
+        {
+          "label": "Keep to dry ground and risk being heard",
+          "effect": "penalty:5"
+        }
+      ]
+    },
+    {
+      "id": "complication_wilderness_predator_01",
+      "type": "complication",
+      "tags": [
+        "wilderness"
+      ],
+      "text": "Something shifts at the treeline behind you - low, quick, gone before it can be named. Whatever it was, it was watching you with the same professional interest you're extending to your prey. Competition. How tiresome.",
+      "choices": [
+        {
+          "label": "Track the shape and put a shaft through the dark",
+          "roll": "Archery",
+          "success": "bonus:10",
+          "failure": "penalty:10"
+        },
+        {
+          "label": "Ignore it and press on",
+          "effect": "penalty:5"
+        }
+      ]
+    },
+    {
+      "id": "complication_wilderness_storm_01",
+      "type": "complication",
+      "tags": [
+        "wilderness",
+        "outdoor"
+      ],
+      "text": "Thunder rolls somewhere beyond the hills, and the first fat drops begin to fall - hissing in the campfire, drumming on your prey's hood. Rain is a curtain, a chorus, and an accomplice, all at once. It asks nothing in return. Yet.",
+      "choices": [
+        {
+          "label": "Close the distance under the storm's cover",
+          "effect": "bonus:10"
+        },
+        {
+          "label": "Wait beneath the trees for it to pass",
+          "effect": "penalty:5"
+        }
+      ]
+    },
+    {
+      "id": "complication_wilderness_mercy_01",
+      "type": "complication",
+      "tags": [
+        "wilderness"
+      ],
+      "text": "Your prey sets a second portion by the fire - for any traveler the road might send, as the old courtesy goes. They have nothing, and they've laid a place for a stranger anyway. The stranger, of course, is you. The irony is not lost on anyone present.",
+      "choices": [
+        {
+          "label": "Leave them their fire, their supper, and their night",
+          "effect": "humanity:+1"
+        },
+        {
+          "label": "Kindness makes such easy hunting",
+          "effect": "bonus:5"
+        }
+      ]
+    },
+    {
+      "id": "complication_indoor_window_01",
+      "type": "complication",
+      "tags": [
+        "indoor"
+      ],
+      "text": "A window offers a far better line of approach than the door - assuming, of course, that your grip on the ledge above holds, and that gravity remains in its current forgiving mood.",
+      "choices": [
+        {
+          "label": "Climb across without a sound",
+          "roll": "Climbing",
+          "success": "bonus:10",
+          "failure": "penalty:10"
+        },
+        {
+          "label": "Take the slower, surer way around",
+          "effect": "penalty:5"
+        }
+      ]
+    },
+    {
+      "id": "complication_any_behind_01",
+      "type": "complication",
+      "tags": [],
+      "text": "There is an angle to every back that begs to be stood behind - a blind span between the shoulder blades where you simply cease to exist. Your prey is presenting theirs beautifully.",
+      "choices": [
+        {
+          "label": "Circle into the blind spot, patient as dusk",
+          "roll": "Backstabbing",
+          "success": "bonus:15",
+          "failure": "penalty:10"
+        },
+        {
+          "label": "Approach as you are, angle be damned",
+          "effect": "bonus:0"
+        }
+      ]
+    },
+    {
+      "id": "complication_any_doubt_01",
+      "type": "complication",
+      "tags": [],
+      "text": "Some old, half-remembered instinct rises against what you're about to do - not enough to stop you, merely enough to unsteady the hand. A ghost of the person you were, rattling its little chains. It can be quieted. Most things can.",
+      "choices": [
+        {
+          "label": "Still your own mind with an old working",
+          "roll": "Thaumaturgy",
+          "success": "bonus:10",
+          "failure": "penalty:10"
+        },
+        {
+          "label": "Push the doubt down and continue",
+          "effect": "bonus:0"
+        },
+        {
+          "label": "Listen to your instinct, and remember what you once were.",
+          "effect": "humanity:+1"
+        }
+      ]
+    },
+    {
+      "id": "complication_any_mercy_01",
+      "type": "complication",
+      "tags": [],
+      "text": "You could take everything you came for, right now, easily - and no one alive would ever know the difference, which leaves only the quiet, inconvenient question of whether *you* would. You've been so careful not to ask it until now.",
+      "choices": [
+        {
+          "label": "Walk away, and deny the beast its feast",
+          "effect": "humanity:+1"
+        },
+        {
+          "label": "That question isn't worth entertaining",
+          "effect": "bonus:0"
+        }
+      ]
+    },
+    {
+      "id": "complication_any_cruelty_01",
+      "type": "complication",
+      "tags": [],
+      "text": "You could make this quick. Merciful, even, by the standards of your kind. But some low, patient part of you wants your prey to understand exactly what is happening to them before it's over - wants to be seen. It's asking so nicely.",
+      "choices": [
+        {
+          "label": "Let them feel every second of it",
+          "effect": "humanity:-1"
+        },
+        {
+          "label": "There's no need for that",
+          "effect": "bonus:0"
+        },
+        {
+          "label": "What are you becoming? You need to leave. Now",
+          "effect": "humanity:+1"
+        }
+      ]
+    },
+    {
+      "id": "complication_any_savor_01",
+      "type": "complication",
+      "tags": [],
+      "requires": {
+        "humanityMax": 3
+      },
+      "text": "The fear hasn't even started yet, and already you're enjoying this - the stalk, the nearness, the exquisite dramatic irony of being the only one who knows how the evening ends. The beast doesn't just want to feed anymore. It wants to *play*.",
+      "choices": [
+        {
+          "label": "Draw the hunt out. Let the dread ripen",
+          "effect": "humanity:-1"
+        },
+        {
+          "label": "Feed. Nothing more",
+          "effect": "bonus:0"
+        }
+      ]
+    },
+    {
+      "id": "complication_lowblood_shakes_01",
+      "type": "complication",
+      "tags": [],
+      "requires": {
+        "bloodMax": 1
+      },
+      "text": "Your hands are shaking. Not from fear - fear left you long ago - but from the sheer, cellular want of it, the body demanding its due like a creditor at the door. Precision is about to become a luxury.",
+      "choices": [
+        {
+          "label": "Breathe. Master the tremor before you move",
+          "effect": "penalty:5"
+        },
+        {
+          "label": "Let the hunger sharpen you instead of steadying you",
+          "effect": "bonus:5"
+        }
+      ]
+    },
+    {
+      "id": "complication_any_reveal_01",
+      "type": "complication",
+      "tags": [],
+      "text": "Something about your prey's perfect stillness catches at you - not fear, not sleep, just a composure that belongs to nothing mortal. Every instinct you own is clearing its throat meaningfully. You lean closer anyway. Curiosity — the one hunger that survived the grave.",
+      "choices": [
+        {
+          "label": "Look them in the eye and learn what you're dealing with",
+          "effect": "reveal_vampire"
+        },
+        {
+          "label": "Trust your instincts and back away",
+          "effect": "abort"
+        }
+      ]
+    },
+    {
+      "id": "complication_any_reveal_02",
+      "type": "complication",
+      "tags": [],
+      "text": "There is a wrongness to the pulse you can't quite place - too slow, too even, less a heartbeat than a very good impression of one. Something is performing 'alive' for an audience of you. You could applaud, or you could find out why.",
+      "choices": [
+        {
+          "label": "Feed anyway, and see what answers",
+          "effect": "reveal_vampire"
+        },
+        {
+          "label": "Choose a different mark entirely",
+          "effect": "abort"
+        }
+      ]
+    },
+    {
+      "id": "complication_inn_reveal_01",
+      "type": "complication",
+      "tags": [
+        "inn"
+      ],
+      "text": "your prey has been nursing the same cup all evening, you realize - the level never falling, the coin never spent, the laughter always a half-beat behind the room's. A flawless performance of a person having a drink. Performed, one wonders, for whom?",
+      "choices": [
+        {
+          "label": "Sit down across from them and find out",
+          "effect": "reveal_vampire"
+        },
+        {
+          "label": "Leave the theater before the curtain",
+          "effect": "abort"
+        }
+      ]
+    },
+    {
+      "id": "complication_palace_hunter_01",
+      "type": "complication",
+      "tags": [
+        "palace"
+      ],
+      "requires": {
+        "humanityMax": 5
+      },
+      "text": "A figure steps from an alcove you were certain stood empty, hand already resting on a blessed hilt - no guard on any rota, this. Someone knew where you would be tonight, and dressed for the occasion. How flattering. How very inconvenient.",
+      "choices": [
+        {
+          "label": "Face them or die",
+          "effect": "hunter_arrives"
+        }
+      ]
+    },
+    {
+      "id": "complication_streets_hunter_01",
+      "type": "complication",
+      "tags": [
+        "streets"
+      ],
+      "requires": {
+        "humanityMax": 5
+      },
+      "text": "You've been seen on this street before - more than once, it seems - and someone finally stopped wondering and started *watching*. They step from a doorway now, a warding symbol chalked fresh on the wood behind them, and their heartbeat is infuriatingly calm.",
+      "choices": [
+        {
+          "label": "Face them or die",
+          "effect": "hunter_arrives"
+        }
+      ]
+    },
+    {
+      "id": "complication_residence_vigil_01",
+      "type": "complication",
+      "tags": [
+        "residence"
+      ],
+      "requires": {
+        "humanityMax": 5
+      },
+      "text": "A floorboard answers from the next room - not your prey, someone else. Someone awake, armed, and unafraid, who has been keeping vigil over this house for precisely this reason. They knew you would come. Somebody always loves the prey. You keep forgetting that.",
+      "choices": [
+        {
+          "label": "Face them or die",
+          "effect": "hunter_arrives"
+        }
+      ]
+    },
+    {
+      "id": "complication_wilderness_hunter_01",
+      "type": "complication",
+      "tags": [
+        "wilderness"
+      ],
+      "requires": {
+        "humanityMax": 4
+      },
+      "text": "The snap of a twig behind you is deliberate - a courtesy, an announcement. Whoever tracked you this far into the wild wanted you to hear them arrive. They carry cold iron and colder patience, and they have been following your trail of empty nights for a long, long time.",
+      "choices": [
+        {
+          "label": "Face them or die",
+          "effect": "hunter_arrives"
+        }
+      ]
+    },
+    {
+      "id": "complication_any_fallback_01",
+      "type": "complication",
+      "tags": [],
+      "text": "Something small threatens to give you away - a shifting shadow, a half-heard breath, nothing you could put a name to. The night has developed an opinion, and it hasn't yet said which side it's on.",
+      "choices": [
+        {
+          "label": "Wait for it to pass",
+          "effect": "penalty:5"
+        },
+        {
+          "label": "Press on regardless",
+          "effect": "bonus:0"
+        },
+        {
+          "label": "Not worth the risk tonight",
+          "effect": "abort"
+        }
+      ]
+    },
+    {
+      "id": "complication_any_fallback_02",
+      "type": "complication",
+      "tags": [],
+      "text": "The moment is nearly perfect. Nearly. There's a wrongness at the edge of it you can't name - the night holding one card face-down - and you must decide whether perfection is worth waiting for.",
+      "choices": [
+        {
+          "label": "Wait for the perfect moment",
+          "effect": "bonus:5"
+        },
+        {
+          "label": "Nearly perfect will do",
+          "effect": "penalty:5"
+        },
+        {
+          "label": "Fold the hand entirely",
+          "effect": "abort"
+        }
+      ]
+    },
+    {
+      "id": "resolution_stealth_success_01",
+      "type": "resolution",
+      "method": "stealth",
+      "success": true,
+      "tags": [],
+      "text": "You close the last of the distance without a sound, and your prey never once turns. It's over before it began - a quiet theft from an unwatched moment - and you're away before the warmth has finished settling in your throat. They'll feel oddly tired soon, and never think to wonder why."
+    },
+    {
+      "id": "resolution_stealth_success_02",
+      "type": "resolution",
+      "method": "stealth",
+      "success": true,
+      "tags": [
+        "residence"
+      ],
+      "text": "The house never learns you were in it. Your prey sighs, turns over, and sleeps on - lighter by a little blood and none the wiser - while you let yourself out the way you came, leaving the latch exactly as you found it. You are, if nothing else, a considerate guest."
+    },
+    {
+      "id": "resolution_stealth_failure_01",
+      "type": "resolution",
+      "method": "stealth",
+      "success": false,
+      "tags": [],
+      "text": "One misplaced step, one shadow falling a hand's width wrong - the cause hardly matters. Your prey startles, whirls, and lets out a cry that carries much further than you'd like. The night's careful quiet collapses around you all at once, and it does not apologize."
+    },
+    {
+      "id": "resolution_stealth_failure_02",
+      "type": "resolution",
+      "method": "stealth",
+      "success": false,
+      "tags": [
+        "inn"
+      ],
+      "text": "A tankard, an elbow, a heartbeat of miscalculation - and the crash rings through the common room like a bell. Your prey startles upright, half the room turns, and the shadow you were wearing so comfortably is suddenly nowhere to be found."
+    },
+    {
+      "id": "resolution_etiquette_success_01",
+      "type": "resolution",
+      "method": "etiquette",
+      "success": true,
+      "tags": [],
+      "text": "Your words find exactly the right shape, and your prey leans in without ever quite deciding to. By the time the cold kiss finds their throat, they've stopped minding anything at all - and when you leave them, smiling faintly at nothing, they'll remember only that the conversation was lovely."
+    },
+    {
+      "id": "resolution_etiquette_success_palace_01",
+      "type": "resolution",
+      "method": "etiquette",
+      "success": true,
+      "tags": [
+        "palace"
+      ],
+      "text": "Courtly grace comes easier to you now than it ever did in life - the dead have such patience for ceremony - and your prey is charmed past all noticing until far, far too late. You leave them drowsing against the windowsill, one more noble undone by flattery. Hardly the first."
+    },
+    {
+      "id": "resolution_etiquette_success_inn_01",
+      "type": "resolution",
+      "method": "etiquette",
+      "success": true,
+      "tags": [
+        "inn"
+      ],
+      "text": "One drink becomes two, two becomes a warm hand at their shoulder guiding them somewhere quieter, and by the time your prey thinks to wonder why the room's gone dim, you're already finishing. You return them to their table, sweet-tempered and swaying. The barkeep assumes the obvious."
+    },
+    {
+      "id": "resolution_etiquette_success_wilderness_01",
+      "type": "resolution",
+      "method": "etiquette",
+      "success": true,
+      "tags": [
+        "wilderness"
+      ],
+      "text": "They share their fire; you share their company; and somewhere in the long, easy quiet between stories, you take your due so gently they mistake it for drowsiness. Come morning, your prey will remember a stranger's good manners, a strange dream, and a stiffness in the neck. Roads are hard on a body, after all."
+    },
+    {
+      "id": "resolution_etiquette_failure_01",
+      "type": "resolution",
+      "method": "etiquette",
+      "success": false,
+      "tags": [],
+      "text": "Something in your manner rings false tonight - a beat too eager, a smile held one moment past its welcome - and your prey's easy warmth cools into wary silence. You let the moment die a natural death rather than force it. There is nothing quite so conspicuous as charm that has stopped working."
+    },
+    {
+      "id": "resolution_etiquette_failure_palace_01",
+      "type": "resolution",
+      "method": "etiquette",
+      "success": false,
+      "tags": [
+        "palace"
+      ],
+      "text": "The nobility are bred to two talents: inheriting, and detecting insincerity. Your prey arches one exquisite eyebrow, takes a small step back, and glances - just briefly - toward the door where the guards stand. The audience, it seems, is over."
+    },
+    {
+      "id": "resolution_feast_success_residence_01",
+      "type": "resolution",
+      "method": "feast",
+      "success": true,
+      "tags": [
+        "residence"
+      ],
+      "text": "You hold your prey with total, unhurried intent, and this time you do not stop - not at the gasp, not at the slackening, not until there is simply nothing left to take. The body settles in your arms with a terrible domestic gentleness. Their own walls kept every secret, including this one."
+    },
+    {
+      "id": "resolution_feast_success_inn_01",
+      "type": "resolution",
+      "method": "feast",
+      "success": true,
+      "tags": [
+        "inn"
+      ],
+      "text": "You steer your prey somewhere the firelight doesn't reach, and there you take everything - every drop, every year they had left, all of it, while twenty feet away someone butchers a love song. The inn drinks on, oblivious. It will be so very loud in here tomorrow, when they find what's left."
+    },
+    {
+      "id": "resolution_feast_success_streets_01",
+      "type": "resolution",
+      "method": "feast",
+      "success": true,
+      "tags": [
+        "streets"
+      ],
+      "text": "Right there in the open, under the indifferent moon, you drain your prey to the very last of them - a killing so complete, so unhidden, that no one who finds it will mistake it for anything natural. You wanted the city to know something walks among them. Congratulations. It knows."
+    },
+    {
+      "id": "resolution_feast_success_palace_01",
+      "type": "resolution",
+      "method": "feast",
+      "success": true,
+      "tags": [
+        "palace"
+      ],
+      "text": "Beneath gilded ceilings, surrounded by wealth that will comfort the corpse not at all, you take everything from your prey without a shred of the courtesy this house was built upon. All that silk. All those guards. All that certainty. None of it weighed so much as a feather, in the end."
+    },
+    {
+      "id": "resolution_feast_success_wilderness_01",
+      "type": "resolution",
+      "method": "feast",
+      "success": true,
+      "tags": [
+        "wilderness"
+      ],
+      "text": "Out here there is no one to hear it end, and no one to find what remains. You drink until the drinking is done, and the wild keeps its long silence exactly as it has kept every other. The road will be blamed. The wolves will be blamed. You will not be blamed. That is what the wilderness is *for*."
+    },
+    {
+      "id": "resolution_feast_failure_01",
+      "type": "resolution",
+      "method": "feast",
+      "success": false,
+      "tags": [],
+      "text": "You lunge for the kill - and your prey is stronger than they looked, and considerably angrier. They tear free before the feed can truly begin, eyes wide with the particular horror of someone whose worst story just came true. Whatever happens next, the quiet part of the evening is emphatically over."
+    },
+    {
+      "id": "resolution_feast_failure_streets_01",
+      "type": "resolution",
+      "method": "feast",
+      "success": false,
+      "tags": [
+        "streets"
+      ],
+      "text": "The grab goes wrong by half a heartbeat - your prey twists, screams, and the scream goes bounding down the street like a hound let off its lead. Windows light. Doors open. The city, which spent all evening ignoring you both, chooses this precise moment to start paying attention."
+    },
+    {
+      "id": "resolution_stealth_success_streets_01",
+      "type": "resolution",
+      "method": "stealth",
+      "success": true,
+      "tags": [
+        "streets"
+      ],
+      "text": "You take them mid-stride, in the gap between one lantern and the next - a hand, a breath, a long red moment - and then set them gently back on their way. Your prey walks on, a little unsteadier, patting their pockets as though they'd merely lost a coin. In a sense, they have."
+    },
+    {
+      "id": "resolution_stealth_success_wilderness_01",
+      "type": "resolution",
+      "method": "stealth",
+      "success": true,
+      "tags": [
+        "wilderness"
+      ],
+      "text": "You come out of the dark the way the cold does - gradually, then completely. Your prey never stirs from the fire's little circle of comfort, and when you slip back beyond the light, the night closes behind you without a seam. The wild is full of things that feed quietly. Now it is one richer."
+    },
+    {
+      "id": "resolution_stealth_failure_streets_01",
+      "type": "resolution",
+      "method": "stealth",
+      "success": false,
+      "tags": [
+        "streets"
+      ],
+      "text": "A loose cobble turns under your foot - the city's small betrayal - and your prey spins at the scrape, eyes finding you instantly in the dark. The street is suddenly very long, very empty, and very interested in what happens next."
+    },
+    {
+      "id": "resolution_stealth_failure_wilderness_01",
+      "type": "resolution",
+      "method": "stealth",
+      "success": false,
+      "tags": [
+        "wilderness"
+      ],
+      "text": "A twig gives you up - one dry snap, absurdly loud in all that silence - and your prey is on their feet in a heartbeat, firebrand raised, eyes hunting the treeline. Out here, no one pretends a noise in the dark is nothing. That's a townsperson's luxury."
+    },
+    {
+      "id": "resolution_opportunity_success_01",
+      "type": "resolution",
+      "method": "opportunity",
+      "success": true,
+      "tags": [],
+      "text": "The opening you saw was real, and you were equal to it. The moment bends exactly the way you asked it to, your prey never understands what the evening just cost them, and you walk away with the taste of a plan that worked. Those are always the sweetest."
+    },
+    {
+      "id": "resolution_opportunity_success_02",
+      "type": "resolution",
+      "method": "opportunity",
+      "success": true,
+      "tags": [],
+      "text": "It unfolds precisely as you pictured it - each small piece of the situation doing its quiet work on your behalf - and your prey is yours for one long, unhurried moment before the world resumes. Talent, you reflect, is simply appetite with good technique."
+    },
+    {
+      "id": "resolution_opportunity_success_streets_01",
+      "type": "resolution",
+      "method": "opportunity",
+      "success": true,
+      "tags": [
+        "streets"
+      ],
+      "text": "The city dealt you the hand, and you played it flawlessly - the angles, the timing, the dark cooperating like a paid accomplice. Your prey reaches the end of the street a little paler and none the wiser, and the night files the whole affair under things that never happened."
+    },
+    {
+      "id": "resolution_opportunity_success_wilderness_01",
+      "type": "resolution",
+      "method": "opportunity",
+      "success": true,
+      "tags": [
+        "wilderness"
+      ],
+      "text": "Out here there are no locks, no walls, no watchmen - only distance, dark, and skill, and tonight all three answered to you. Your prey never knew the wild had sent them company. The wild, discreet as ever, will not mention it."
+    },
+    {
+      "id": "resolution_opportunity_success_inn_01",
+      "type": "resolution",
+      "method": "opportunity",
+      "success": true,
+      "tags": [
+        "inn"
+      ],
+      "text": "The room itself conspires with you - the noise, the drink, the general human talent for noticing nothing - and your prey is fed upon in the middle of a crowd that would swear the evening was uneventful. It was, for them. Splendidly so."
+    },
+    {
+      "id": "resolution_opportunity_success_palace_01",
+      "type": "resolution",
+      "method": "opportunity",
+      "success": true,
+      "tags": [
+        "palace"
+      ],
+      "text": "All that ceremony, all those guards, and the house's own grandeur handed you the very opening you needed. Your prey is lighter by a measure of blood beneath their own proud roof, and the palace - magnificent, oblivious - keeps right on gleaming."
+    },
+    {
+      "id": "resolution_opportunity_failure_01",
+      "type": "resolution",
+      "method": "opportunity",
+      "success": false,
+      "tags": [],
+      "text": "The opening was real - your grasp of it, regrettably, was not. The moment shifts half a beat before you're ready, the chance folds itself neatly closed, and your prey drifts out of reach without ever knowing they'd been anyone's plan. Clever is not the same as done."
+    },
+    {
+      "id": "resolution_opportunity_failure_02",
+      "type": "resolution",
+      "method": "opportunity",
+      "success": false,
+      "tags": [],
+      "text": "Somewhere between the seeing and the doing, the thing slips - a beat missed, a distance misjudged - and the situation quietly withdraws its offer. your prey carries on untouched. The night makes no promises twice; you've always admired that about it."
+    },
+    {
+      "id": "opening_streets_rain_01",
+      "type": "opening",
+      "tags": [
+        "streets",
+        "outdoor",
+        "night"
+      ],
+      "text": "The rain has driven everyone sensible indoors, which leaves your prey - hood up, head down, hurrying through a city gone silver and blind. Rain is a marvelous thing. It washes away sound, scent, and witnesses, all in the same fall.",
+      "approaches": [
+        {
+          "label": "Move inside the rain's own noise",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Offer to share the shelter of a doorway",
+          "roll": "Etiquette",
+          "method": "etiquette"
+        },
+        {
+          "label": "Cut through the flooded lane they'll have to skirt",
+          "roll": "Swimming",
+          "method": "opportunity"
+        },
+        {
+          "label": "Let the storm keep the only record of this",
+          "roll": "Hand-to-Hand",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "opening_streets_market_01",
+      "type": "opening",
+      "tags": [
+        "streets",
+        "outdoor",
+        "night"
+      ],
+      "text": "The market square stands stripped and skeletal, all bare stalls and rope-creak, and your prey moves through it collecting what the day's commerce left behind. A scavenger, by the look of it. You sympathize entirely - you're here for much the same reason.",
+      "approaches": [
+        {
+          "label": "Drift stall to stall in their wake",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Haggle over something worthless until they warm to you",
+          "roll": "Mercantile",
+          "method": "opportunity"
+        },
+        {
+          "label": "Call out a friendly word across the empty square",
+          "roll": "Etiquette",
+          "method": "etiquette"
+        },
+        {
+          "label": "Close the last stall's business yourself",
+          "roll": "Hand-to-Hand",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "opening_streets_drunk_01",
+      "type": "opening",
+      "tags": [
+        "streets",
+        "outdoor",
+        "latenight"
+      ],
+      "text": "Your prey is navigating homeward by a method best described as optimistic - three steps forward, one sideways, a brief negotiation with a wall. Drunk, alone, and cheerful about it. The night has all but gift-wrapped them. It's almost insulting.",
+      "approaches": [
+        {
+          "label": "Steady them with a stranger's kindly arm",
+          "roll": "Etiquette",
+          "method": "etiquette"
+        },
+        {
+          "label": "Follow the weaving path just out of their wobbling sight",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Guide their stumbling toward a darker turning",
+          "roll": "Streetwise",
+          "method": "opportunity"
+        },
+        {
+          "label": "Spare them the hangover entirely",
+          "roll": "Hand-to-Hand",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "opening_streets_lamplighter_01",
+      "type": "opening",
+      "tags": [
+        "streets",
+        "outdoor",
+        "night"
+      ],
+      "text": "Your prey works the street with pole and flame, waking the lanterns one by one - a small nightly war against the dark, fought entirely alone. There's an irony available here about someone whose whole trade is light, and you intend to be it.",
+      "approaches": [
+        {
+          "label": "Keep exactly one unlit lamp between you",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Admire their work aloud and fall in alongside",
+          "roll": "Etiquette",
+          "method": "etiquette"
+        },
+        {
+          "label": "Snuff the lamps behind them, one by patient one",
+          "roll": "Illusion",
+          "method": "opportunity"
+        },
+        {
+          "label": "Put out the lamplighter instead",
+          "roll": "Backstabbing",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "opening_inn_musician_01",
+      "type": "opening",
+      "tags": [
+        "inn",
+        "indoor",
+        "latenight"
+      ],
+      "text": "The last song ended an hour ago, and your prey sits on the stage's edge, wrapping strings and counting coppers. Every performer knows the house empties fast. None of them expect what stays behind.",
+      "approaches": [
+        {
+          "label": "Praise the set they thought nobody stayed for",
+          "roll": "Etiquette",
+          "method": "etiquette"
+        },
+        {
+          "label": "Cross the empty benches without a creak",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Drop a generous coin in the case and become their best listener",
+          "roll": "Mercantile",
+          "method": "opportunity"
+        },
+        {
+          "label": "End the evening on a dying note",
+          "roll": "Critical Strike",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "opening_inn_staff_01",
+      "type": "opening",
+      "tags": [
+        "inn",
+        "indoor",
+        "latenight"
+      ],
+      "text": "Your prey moves through the wreckage of the evening with a rag and a sigh, stacking chairs, mopping spills, singing something small under their breath. The staff always outlast the revel. Tonight, regrettably for them, so did you.",
+      "approaches": [
+        {
+          "label": "Wait in the pantry dark for their rounds to reach you",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Apologize for lingering and offer to help stack",
+          "roll": "Etiquette",
+          "method": "etiquette"
+        },
+        {
+          "label": "Palm the cellar key from the hook as they pass",
+          "roll": "Pickpocket",
+          "method": "opportunity"
+        },
+        {
+          "label": "Add them to the night's spills",
+          "roll": "Hand-to-Hand",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "opening_inn_gambler_01",
+      "type": "opening",
+      "tags": [
+        "inn",
+        "indoor",
+        "night"
+      ],
+      "text": "The dice have been kind to your prey tonight - kind enough that they're still at the table long after their opponents surrendered, stacking winnings and grinning at them. Luck is a curious thing. It has a way of drawing predators.",
+      "approaches": [
+        {
+          "label": "Buy in for a hand and lose charmingly",
+          "roll": "Etiquette",
+          "method": "etiquette"
+        },
+        {
+          "label": "Wait by the stairs they'll climb with all that gold",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Read the gambler's tells the way they never read yours",
+          "roll": "Streetwise",
+          "method": "opportunity"
+        },
+        {
+          "label": "Call in the house's real debt",
+          "roll": "Backstabbing",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "opening_inn_traveler_01",
+      "type": "opening",
+      "tags": [
+        "inn",
+        "indoor",
+        "night"
+      ],
+      "text": "Your prey came in off the road an hour ago, and it shows - boots still muddy, eyes half-shut over a bowl going cold, a room key clutched like a promise. They have perhaps ten minutes of wakefulness left to spend, and they're spending it poorly.",
+      "approaches": [
+        {
+          "label": "Swap road stories, one weary traveler to another",
+          "roll": "Etiquette",
+          "method": "etiquette"
+        },
+        {
+          "label": "Follow the key upstairs before they use it",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Read the room number off the key from across the table",
+          "roll": "Streetwise",
+          "method": "opportunity"
+        },
+        {
+          "label": "See that they never reach the stairs",
+          "roll": "Hand-to-Hand",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "complication_streets_watchpair_01",
+      "type": "complication",
+      "tags": [
+        "streets"
+      ],
+      "text": "Two of the city watch hold the far corner, deep in the kind of conversation that could end in a heartbeat or an hour. Between you and your prey lies their entire field of view. Bureaucracy has never been so inconveniently placed.",
+      "choices": [
+        {
+          "label": "Walk past like one more citizen with nowhere better to be",
+          "roll": "Streetwise",
+          "success": "bonus:10",
+          "failure": "penalty:15"
+        },
+        {
+          "label": "Wait for the conversation to wander off",
+          "effect": "penalty:10"
+        },
+        {
+          "label": "Concede the corner to the law",
+          "effect": "abort"
+        }
+      ]
+    },
+    {
+      "id": "complication_streets_window_01",
+      "type": "complication",
+      "tags": [
+        "streets"
+      ],
+      "text": "A shutter bangs open overhead, and an argument spills out into the night - two voices, escalating, and a candle throwing restless light across your whole stretch of street. Domestic drama: free entertainment, terrible cover.",
+      "choices": [
+        {
+          "label": "Move during the shouting, when no one hears anything",
+          "effect": "bonus:10"
+        },
+        {
+          "label": "Wait out the quarrel in a doorway",
+          "effect": "penalty:5"
+        },
+        {
+          "label": "Leave them all to their evening",
+          "effect": "abort"
+        }
+      ]
+    },
+    {
+      "id": "complication_streets_cart_01",
+      "type": "complication",
+      "tags": [
+        "streets"
+      ],
+      "text": "A night-cart grinds up the lane behind its tired horse, lantern swinging, driver nodding - slow as sap and headed exactly where you don't want an audience. You could wait an age for it to pass. Or you could use the great rattling thing.",
+      "choices": [
+        {
+          "label": "Pace the cart's blind side as it rolls past {victim}",
+          "roll": "Running",
+          "success": "bonus:15",
+          "failure": "penalty:10"
+        },
+        {
+          "label": "Let it creak by and take the silence after",
+          "effect": "penalty:5"
+        }
+      ]
+    },
+    {
+      "id": "complication_inn_cat_01",
+      "type": "complication",
+      "tags": [
+        "inn"
+      ],
+      "text": "The inn's cat has found you. It sits at a middle distance, tail curled, regarding you with the flat golden stare of a creature that has no idea what you are and disapproves anyway. Cats cannot raise an alarm. They can, however, make a person follow their gaze.",
+      "choices": [
+        {
+          "label": "Meet the stare until the beast in you outranks it",
+          "roll": "Mysticism",
+          "success": "bonus:10",
+          "failure": "penalty:10"
+        },
+        {
+          "label": "Ignore the animal and its opinions",
+          "effect": "penalty:5"
+        }
+      ]
+    },
+    {
+      "id": "complication_inn_floor_01",
+      "type": "complication",
+      "tags": [
+        "inn"
+      ],
+      "text": "Someone's spilled ale lies across the floorboards between you and your prey - a dark slick just waiting to turn a silent approach into a comedy. The evening's leavings, laid out like a trap no one bothered to set on purpose.",
+      "choices": [
+        {
+          "label": "Step through the wet without a slip or a squeak",
+          "roll": "Dodging",
+          "success": "bonus:10",
+          "failure": "penalty:15"
+        },
+        {
+          "label": "Go the long way around the tables",
+          "effect": "penalty:5"
+        }
+      ]
+    },
+    {
+      "id": "complication_inn_cellarboy_01",
+      "type": "complication",
+      "tags": [
+        "inn"
+      ],
+      "text": "A pot-boy emerges from the cellar hatch with an armload of bottles, sleep-blind and stumbling, on a course to pass within arm's reach of you. Children notice the strangest things. It's one of their few defenses.",
+      "choices": [
+        {
+          "label": "Become furniture until the boy and his bottles are gone",
+          "effect": "penalty:5"
+        },
+        {
+          "label": "Redirect him with a nod toward work elsewhere",
+          "roll": "Etiquette",
+          "success": "bonus:10",
+          "failure": "penalty:10"
+        },
+        {
+          "label": "Too many small witnesses tonight",
+          "effect": "abort"
+        }
+      ]
+    },
+    {
+      "id": "resolution_etiquette_success_streets_01",
+      "type": "resolution",
+      "method": "etiquette",
+      "success": true,
+      "tags": [
+        "streets"
+      ],
+      "text": "You walk together for a block, then two, your voice doing its slow, warm work under the lamplight - and somewhere between one corner and the next, your prey simply stops walking and waits, agreeable as a held breath. You take what you came for and send them on. They arrive home convinced it was a pleasant night. In fairness, half of it was."
+    },
+    {
+      "id": "resolution_stealth_success_inn_01",
+      "type": "resolution",
+      "method": "stealth",
+      "success": true,
+      "tags": [
+        "inn"
+      ],
+      "text": "Between the fire's crackle and the room's murmur, there is a seam of silence exactly wide enough for you - and you use it. Your prey feels nothing but a draft and a heaviness behind the eyes, and the inn's whole noisy indifference closes over the moment like water. Not one head turns. You could almost be offended."
+    },
+    {
+      "id": "resolution_feast_failure_inn_01",
+      "type": "resolution",
+      "method": "feast",
+      "success": false,
+      "tags": [
+        "inn"
+      ],
+      "text": "You reach for the kill, and the room betrays you first - a shout, a scraped bench, your prey wrenching free with a scream that cuts straight through wood and wine alike. Every face in this place is turned your way now, and not one of them is friendly. So much for the quiet corner."
+    },
+    {
+      "id": "complication_streets_werewolf_01",
+      "type": "complication",
+      "tags": [
+        "streets"
+      ],
+      "text": "Your prey's pulse is wrong in the opposite direction from anything you've tasted - too hot, too fast, a heartbeat running like something four-legged. And there, under the sweat and woodsmoke: wet fur, though they're wearing none. Your prey, it seems, is also somebody's predator.",
+      "choices": [
+        {
+          "label": "Feed anyway - blood is blood",
+          "effect": "reveal_werewolf"
+        },
+        {
+          "label": "Leave this one to its own moon",
+          "effect": "abort"
+        }
+      ]
+    },
+    {
+      "id": "complication_inn_werewolf_01",
+      "type": "complication",
+      "tags": [
+        "inn"
+      ],
+      "text": "Your prey has eaten three plates of the roast and touched none of the bread, and when the serving girl dropped a knife, they were somehow already turned toward the sound. An animal is wearing that chair. It hasn't noticed you yet - which raises the interesting question of what happens when it does.",
+      "choices": [
+        {
+          "label": "Press in close and take your answer",
+          "effect": "reveal_werewolf"
+        },
+        {
+          "label": "Let sleeping beasts lie",
+          "effect": "abort"
+        }
+      ]
+    },
+    {
+      "id": "complication_wilderness_werewolf_01",
+      "type": "complication",
+      "tags": [
+        "wilderness"
+      ],
+      "text": "You realize, closing the final distance, that your prey has been circling this camp the same way you've been circling it - patient, downwind, purposeful. You are not the only thing hunting here tonight. You are not even certain you're the largest.",
+      "choices": [
+        {
+          "label": "Contest the kill",
+          "effect": "reveal_werewolf"
+        },
+        {
+          "label": "Cede the territory gracefully",
+          "effect": "abort"
+        }
+      ]
+    },
+    {
+      "id": "opening_darkbrotherhood_welcome_01",
+      "type": "opening",
+      "tags": [
+        "darkbrotherhood",
+        "indoor",
+        "night"
+      ],
+      "autoSuccess": true,
+      "text": "No one here is startled by what you are. The Dark Brotherhood has always kept a warm place at its hearth for your kind. After all, you never balk at the wet part of the trade. The initiate was told to expect you, but his fear cannot be hidden by a hood. Tonight, you feed.",
+      "approaches": [
+        {
+          "label": "Accept the tribute as it was offered",
+          "roll": "Etiquette",
+          "method": "etiquette"
+        },
+        {
+          "label": "Take it quietly, as a guest should",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Trade a contract's gossip over the open vein",
+          "roll": "Streetwise",
+          "method": "opportunity"
+        },
+        {
+          "label": "Take more than the Brotherhood put on the table",
+          "roll": "Hand-to-Hand",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "opening_darkbrotherhood_initiate_01",
+      "type": "opening",
+      "tags": [
+        "darkbrotherhood",
+        "indoor",
+        "night"
+      ],
+      "autoSuccess": true,
+      "text": "An initiate waits in the candle-dark of the sanctuary, sleeve already rolled, eyes carefully forward - assigned to you. The Brotherhood feeds its own. There's something almost touching about an organization built on spilling of blood being so considerate.",
+      "approaches": [
+        {
+          "label": "Put the initiate at ease before you begin",
+          "roll": "Etiquette",
+          "method": "etiquette"
+        },
+        {
+          "label": "Be done before their courage needs testing",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Bleed them with a chirurgeon's economy",
+          "roll": "Medical",
+          "method": "opportunity"
+        },
+        {
+          "label": "Show the Brotherhood what they've truly invited in",
+          "roll": "Hand-to-Hand",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "complication_darkbrotherhood_audience_01",
+      "type": "complication",
+      "tags": [
+        "darkbrotherhood"
+      ],
+      "text": "A senior assassin has paused in the doorway to watch you work - arms folded, expression somewhere between clinical and approving, the way a butcher watches a colleague. No alarm will be raised here. But you are, unmistakably, being evaluated.",
+      "choices": [
+        {
+          "label": "Perform for the audience",
+          "effect": "bonus:10"
+        },
+        {
+          "label": "Wait for privacy all the same",
+          "effect": "penalty:5"
+        }
+      ]
+    },
+    {
+      "id": "opening_temple_vigil_01",
+      "type": "opening",
+      "tags": [
+        "temple",
+        "indoor",
+        "night"
+      ],
+      "text": "The sanctuary hums with the day's leftover prayers, and every stone of it knows what you are - the holy places always do. Your prey kneels alone at the rail in the votive glow, keeping some small vigil, certain beyond question that nothing unclean could cross this threshold. The threshold, you note, had other opinions. It let you in.",
+      "approaches": [
+        {
+          "label": "Kneel beside them, one penitent to another",
+          "roll": "Etiquette",
+          "method": "etiquette"
+        },
+        {
+          "label": "Move through the pews' long shadows",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Dim the votive flames to embers as you come",
+          "roll": "Illusion",
+          "method": "opportunity"
+        },
+        {
+          "label": "Answer their prayers personally",
+          "roll": "Critical Strike",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "opening_temple_healer_01",
+      "type": "opening",
+      "tags": [
+        "temple",
+        "indoor",
+        "night"
+      ],
+      "text": "The temple infirmary keeps late hours, and your prey moves down the row of cots with water and murmured comfort - a healer at the end of a long shift, surrounded by the sleeping sick. So much blood in one room, all of it thin, tired, and utterly unguarded. Even you hesitate at the arithmetic of this place. Briefly.",
+      "approaches": [
+        {
+          "label": "Offer a stranger's help with the night's last rounds",
+          "roll": "Etiquette",
+          "method": "etiquette"
+        },
+        {
+          "label": "Wait behind the linen screens for their pass",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Tend a cot yourself until they trust your hands",
+          "roll": "Medical",
+          "method": "opportunity"
+        },
+        {
+          "label": "Give the infirmary a patient it cannot save",
+          "roll": "Hand-to-Hand",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "complication_temple_frenzy_01",
+      "type": "complication",
+      "tags": [
+        "temple"
+      ],
+      "requires": {
+        "bloodMax": 1
+      },
+      "text": "It happens all at once: the incense, the candle-warmth, the gathered pulse of every sleeping and praying soul under this roof - and the hunger stands up inside you like a congregation rising. The beast has found a full larder on holy ground, and it is done asking. What's left of you has one breath to argue.",
+      "choices": [
+        {
+          "label": "Fight it to the door with everything you have",
+          "roll": "Thaumaturgy",
+          "success": "abort",
+          "failure": "temple_massacre"
+        },
+        {
+          "label": "Stop fighting it",
+          "effect": "temple_massacre"
+        }
+      ]
+    },
+    {
+      "id": "complication_temple_relic_01",
+      "type": "complication",
+      "tags": [
+        "temple"
+      ],
+      "text": "Between you and your prey stands the reliquary - old bones, old faith, old light that presses against your skin like a held palm. It cannot stop you. It can, however, make every step past it cost a little composure.",
+      "choices": [
+        {
+          "label": "Walk through the light without flinching",
+          "roll": "Thaumaturgy",
+          "success": "bonus:10",
+          "failure": "penalty:15"
+        },
+        {
+          "label": "Circle the long way around the sacred ground",
+          "effect": "penalty:5"
+        },
+        {
+          "label": "Let the old bones win tonight",
+          "effect": "abort"
+        }
+      ]
+    },
+    {
+      "id": "opening_fightersguild_recruit_01",
+      "type": "opening",
+      "tags": [
+        "fightersguild",
+        "indoor",
+        "night"
+      ],
+      "text": "The training hall still smells of the day's work - sweat, oiled leather, someone's blood that isn't yours yet. Your prey sleeps where the drills dropped them, sprawled on a bench with a wet cloth over two black eyes. The Fighters Guild breaks its recruits so the world doesn't have to. Tonight, the world found a side entrance.",
+      "approaches": [
+        {
+          "label": "Cross the hall on a soldier's silent feet",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Play the concerned guildmate checking on the wounded",
+          "roll": "Etiquette",
+          "method": "etiquette"
+        },
+        {
+          "label": "Tend those bruises with hands that know anatomy",
+          "roll": "Medical",
+          "method": "opportunity"
+        },
+        {
+          "label": "Finish what the training yard started",
+          "roll": "Hand-to-Hand",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "opening_fightersguild_veteran_01",
+      "type": "opening",
+      "tags": [
+        "fightersguild",
+        "indoor",
+        "night"
+      ],
+      "text": "Your prey drinks alone at the trophy wall, saluting something mounted and long dead, refighting an old contract with an audience of one. Veterans keep the strangest vigils. This one has survived orcs, giants, and two decades of other people's wars - and never once checked what the hall's shadows were doing.",
+      "approaches": [
+        {
+          "label": "Ask about the trophy and let the war stories flow",
+          "roll": "Etiquette",
+          "method": "etiquette"
+        },
+        {
+          "label": "Wait in the dark until the cup finishes its work",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Match them drink for drink with a merchant's hollow leg",
+          "roll": "Mercantile",
+          "method": "opportunity"
+        },
+        {
+          "label": "Give the wall one more trophy",
+          "roll": "Backstabbing",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "complication_fightersguild_sparring_01",
+      "type": "complication",
+      "tags": [
+        "fightersguild"
+      ],
+      "text": "Somewhere in the dark of the hall, two insomniacs are settling a wager with practice blades - grunts, footwork, the clack of wood on wood. Fighters never truly sleep. They merely wait, loudly, for reasons to wake.",
+      "choices": [
+        {
+          "label": "Move on the rhythm of their bout, strike for strike",
+          "roll": "Dodging",
+          "success": "bonus:10",
+          "failure": "penalty:10"
+        },
+        {
+          "label": "Wait for the wager to settle itself",
+          "effect": "penalty:5"
+        },
+        {
+          "label": "Too many trained ears tonight",
+          "effect": "abort"
+        }
+      ]
+    },
+    {
+      "id": "opening_knightlyorder_squire_01",
+      "type": "opening",
+      "tags": [
+        "knightlyorder",
+        "indoor",
+        "night"
+      ],
+      "text": "By candlelight, your prey works oil into a knight's harness piece by piece - a squire's midnight penance, polishing someone else's glory until their fingers crack. The order's banners hang overhead, every one of them stitched with words like honor and vigilance. The vigilance, you note, is a lie.",
+      "approaches": [
+        {
+          "label": "Admire the harness with a noble's practiced eye",
+          "roll": "Etiquette",
+          "method": "etiquette"
+        },
+        {
+          "label": "Keep to the banner-shadows along the wall",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Offer the trick that lifts tarnish in half the time",
+          "roll": "Mercantile",
+          "method": "opportunity"
+        },
+        {
+          "label": "Add a stain no squire can polish out",
+          "roll": "Critical Strike",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "opening_knightlyorder_vigil_01",
+      "type": "opening",
+      "tags": [
+        "knightlyorder",
+        "indoor",
+        "night"
+      ],
+      "text": "Your prey kneels in full harness before the order's shrine, keeping the long vigil that turns a candidate into a knight - unarmed by oath, unmoving by tradition, and unattended by anyone at all. An entire ceremony built on being alone and defenseless in the dark. You could not have designed it better yourself.",
+      "approaches": [
+        {
+          "label": "Approach as a brother of the order come to witness",
+          "roll": "Etiquette",
+          "method": "etiquette"
+        },
+        {
+          "label": "Come up behind the kneeling figure, slow as ceremony",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Deepen the shrine's gloom until it swallows you both",
+          "roll": "Illusion",
+          "method": "opportunity"
+        },
+        {
+          "label": "End the vigil the old way",
+          "roll": "Critical Strike",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "complication_knightlyorder_honor_01",
+      "type": "complication",
+      "tags": [
+        "knightlyorder"
+      ],
+      "text": "The night-officer of the watch passes on their rounds - armored, unhurried, pausing at each doorway to murmur the order's little litany. Devotion on a schedule. You have perhaps forty heartbeats of litany left before the rounds reach you.",
+      "choices": [
+        {
+          "label": "Stand as a statue among the order's statuary",
+          "roll": "Illusion",
+          "success": "bonus:10",
+          "failure": "penalty:15"
+        },
+        {
+          "label": "Slip ahead of the rounds and stay ahead",
+          "roll": "Running",
+          "success": "bonus:10",
+          "failure": "penalty:10"
+        },
+        {
+          "label": "Yield the hall to its watchman",
+          "effect": "abort"
+        }
+      ]
+    },
+    {
+      "id": "opening_magesguild_apprentice_01",
+      "type": "opening",
+      "tags": [
+        "magesguild",
+        "indoor",
+        "night"
+      ],
+      "text": "Your prey has fallen asleep face-down in a grimoire, candle guttering, one hand still curled around a quill that finished its sentence without them. The Mages Guild - the one hall in this city that could, in principle, detect exactly what you are. In practice, its wards are tuned for daedra, but you are something that their curriculum can never explain.",
+      "approaches": [
+        {
+          "label": "Move through the stacks like a rumor",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Play the visiting scholar with late-hours privileges",
+          "roll": "Etiquette",
+          "method": "etiquette"
+        },
+        {
+          "label": "Bend their own mage-light politely aside",
+          "roll": "Illusion",
+          "method": "opportunity"
+        },
+        {
+          "label": "Close the grimoire, and the scholar with it",
+          "roll": "Hand-to-Hand",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "opening_magesguild_scryer_01",
+      "type": "opening",
+      "tags": [
+        "magesguild",
+        "indoor",
+        "night"
+      ],
+      "text": "In the scrying chamber, your prey stares into a bowl of silvered water, hunting secrets three kingdoms away - a seer with perfect vision for everything except the room behind them. The apparatus hums. The candles bow away from you as you enter. Even the guild's instruments know better than the guild.",
+      "approaches": [
+        {
+          "label": "Cross the chamber between the candles' warnings",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Ask, collegially, what the water shows tonight",
+          "roll": "Etiquette",
+          "method": "etiquette"
+        },
+        {
+          "label": "Cloud the scrying bowl with a thumb of old power",
+          "roll": "Mysticism",
+          "method": "opportunity"
+        },
+        {
+          "label": "Show the seer the one future they never checked",
+          "roll": "Backstabbing",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "complication_magesguild_ward_01",
+      "type": "complication",
+      "tags": [
+        "magesguild"
+      ],
+      "text": "A detection ward shimmers across the corridor ahead - a lattice of pale intent, humming to itself, keyed to flag the unliving and the uninvited. You are, inconveniently, both. It's old work, though. Old work has seams.",
+      "choices": [
+        {
+          "label": "Unpick the ward's weave thread by thread",
+          "roll": "Mysticism",
+          "success": "bonus:10",
+          "failure": "penalty:20"
+        },
+        {
+          "label": "Find the dead spot where the lattice sags",
+          "roll": "Illusion",
+          "success": "bonus:10",
+          "failure": "penalty:10"
+        },
+        {
+          "label": "Let the mages keep their corridor",
+          "effect": "abort"
+        }
+      ]
+    },
+    {
+      "id": "opening_thievesguild_fence_01",
+      "type": "opening",
+      "tags": [
+        "thievesguild",
+        "indoor",
+        "night"
+      ],
+      "text": "Your prey counts the night's take by a shuttered lantern - rings, plate, somebody's heirlooms - weighing each piece with the tenderness other people save for children. A den full of professionals, and every one of them watching the goods instead of the door. Thieves guard against their own kind. You are not their kind.",
+      "approaches": [
+        {
+          "label": "Move the way they all move, and be unremarkable for it",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Talk shop - fences love a seller who knows the trade",
+          "roll": "Mercantile",
+          "method": "opportunity"
+        },
+        {
+          "label": "Present yourself as a buyer with midnight tastes",
+          "roll": "Etiquette",
+          "method": "etiquette"
+        },
+        {
+          "label": "Make the ledger come up one counter short",
+          "roll": "Backstabbing",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "opening_thievesguild_cutpurse_01",
+      "type": "opening",
+      "tags": [
+        "thievesguild",
+        "indoor",
+        "night"
+      ],
+      "text": "Your prey sleeps in a hammock strung between two beams, one hand dangling, still wearing the fingerless gloves of the trade - a cutpurse home from the hunt, dreaming of other people's pockets. The den never fully sleeps; it dozes with one eye open. Fortunately, you have made a career of the space between blinks.",
+      "approaches": [
+        {
+          "label": "Cross the den quieter than its own creaks",
+          "roll": "Stealth",
+          "method": "stealth"
+        },
+        {
+          "label": "Sway the hammock gently, as the building might",
+          "roll": "Pickpocket",
+          "method": "opportunity"
+        },
+        {
+          "label": "Wake them softly with guild-sign and a low word",
+          "roll": "Streetwise",
+          "method": "etiquette"
+        },
+        {
+          "label": "Cut this purse yourself",
+          "roll": "Critical Strike",
+          "method": "feast"
+        }
+      ]
+    },
+    {
+      "id": "complication_thievesguild_eyes_01",
+      "type": "complication",
+      "tags": [
+        "thievesguild"
+      ],
+      "text": "A lookout on the mezzanine marks you without alarm - just a long, professional once-over, the kind that prices your boots, your gait, and your business in three seconds flat. In this house, everyone watches hands. Yours had better tell the right story.",
+      "choices": [
+        {
+          "label": "Flash a plausible hand-sign and keep walking",
+          "roll": "Streetwise",
+          "success": "bonus:15",
+          "failure": "penalty:15"
+        },
+        {
+          "label": "Let them look until they lose interest",
+          "effect": "penalty:5"
+        },
+        {
+          "label": "Too many professionals in one room",
+          "effect": "abort"
+        }
+      ]
+    },
+    {
+      "id": "complication_magesguild_daedra_01",
+      "type": "complication",
+      "tags": [
+        "magesguild"
+      ],
+      "text": "There is no pulse. You realize it all at once - you've been stalking the *shape* of one, the throat moving, the chest lifting, every mortal courtesy observed - but beneath the performance there's only heat, vast and patient, like a furnace wearing a robe. The guild summons things, of course. It has never been perfectly diligent about sending them home.",
+      "choices": [
+        {
+          "label": "Tear away the disguise and face what the guild left unbanished",
+          "effect": "reveal_daedra"
+        },
+        {
+          "label": "Some doors are better left shut",
+          "effect": "abort"
+        }
+      ]
+    },
+    {
+      "id": "offer_thrall_01",
+      "type": "offer",
+      "offer": "thrall",
+      "tags": [],
+      "text": "A thought crosses your mind, unbidden but not unwelcome. This one could make an excellent thrall. All it would take is a little of your blood, and they would be yours - willingly, devotedly, forever. They would even thank you for it."
+    },
+    {
+      "id": "offer_vampire_01",
+      "type": "offer",
+      "offer": "vampire",
+      "tags": [],
+      "text": "You see potential in this one - a deep hunger, quiet and unfed, so very like your own. You could pass them your gift, and bend them to your will for eternity. It has been a long time since you made something that lasts."
+    },
+    {
+      "id": "opening_hunt_search_01",
+      "type": "opening",
+      "tags": [
+        "wilderness",
+        "animalhunt"
+      ],
+      "text": "There is no one out here to charm, no door to slip, no crowd to vanish into - only the wild, and the hunger, and you. So tonight you hunt as the beasts do. Something warm is moving out there in the dark; you can taste it on the wind, faint as a rumor. All that remains is the finding.",
+      "approaches": [
+        {
+          "label": "Follow the blood-scent on the wind",
+          "roll": "Mysticism",
+          "method": "hunt"
+        },
+        {
+          "label": "Stalk the game trails, patient and low",
+          "roll": "Stealth",
+          "method": "hunt"
+        },
+        {
+          "label": "Beat the brush and run your quarry to ground",
+          "roll": "Running",
+          "method": "hunt"
+        }
+      ]
+    },
+    {
+      "id": "opening_hunt_search_02",
+      "type": "opening",
+      "tags": [
+        "wilderness",
+        "animalhunt"
+      ],
+      "text": "Your veins are quiet and the night is long, and the wild keeps its larder better stocked than any city - deer, boar, things with older names - every one of them certain the dark belongs to it. A reasonable belief, most nights. Go and correct it.",
+      "approaches": [
+        {
+          "label": "Take the high ground and read the dark below",
+          "roll": "Climbing",
+          "method": "hunt"
+        },
+        {
+          "label": "Move through the brush without breaking a twig",
+          "roll": "Stealth",
+          "method": "hunt"
+        },
+        {
+          "label": "Let the hunger itself point the way",
+          "roll": "Mysticism",
+          "method": "hunt"
+        }
+      ]
+    },
+    {
+      "id": "complication_hunt_scent_01",
+      "type": "complication",
+      "tags": [
+        "wilderness",
+        "animalhunt"
+      ],
+      "text": "Another scent crosses your quarry's trail - muskier, larger, wrong. Something else is using these game paths tonight, and it is not the kind of thing that gets hunted.",
+      "choices": [
+        {
+          "label": "Stay on your quarry and off its path",
+          "roll": "Stealth",
+          "success": "bonus:10",
+          "failure": "penalty:10"
+        },
+        {
+          "label": "Follow the stranger scent instead",
+          "effect": "hunt_twist"
+        },
+        {
+          "label": "The wild can keep its secrets tonight",
+          "effect": "abort"
+        }
+      ]
+    },
+    {
+      "id": "complication_hunt_water_01",
+      "type": "complication",
+      "tags": [
+        "wilderness",
+        "animalhunt"
+      ],
+      "text": "The trail runs to water - a cold, quick stream your quarry crossed without a second thought. Scent dies at the bank. The hunt continues on the far side, or it doesn't continue at all.",
+      "choices": [
+        {
+          "label": "Ford the water without a splash and pick up the trail",
+          "roll": "Swimming",
+          "success": "bonus:10",
+          "failure": "penalty:10"
+        },
+        {
+          "label": "Search the bank for a crossing and lose precious time",
+          "effect": "penalty:5"
+        }
+      ]
+    },
+    {
+      "id": "complication_hunt_deadfall_01",
+      "type": "complication",
+      "tags": [
+        "wilderness",
+        "animalhunt"
+      ],
+      "text": "A stretch of deadfall lies between you and the warm thing beyond it - dry branches stacked like a nest of triggers, every one of them eager to announce you to the entire forest.",
+      "choices": [
+        {
+          "label": "Thread the deadfall clean and silent",
+          "roll": "Dodging",
+          "success": "bonus:10",
+          "failure": "hunt_twist"
+        },
+        {
+          "label": "Circle the long way around",
+          "effect": "penalty:5"
+        }
+      ]
+    },
+    {
+      "id": "resolution_hunt_success_01",
+      "type": "resolution",
+      "method": "hunt",
+      "success": true,
+      "tags": [
+        "animalhunt"
+      ],
+      "text": "You find it exactly where the night promised - head down, breath steaming, certain of its solitude. It looks up a moment too late. The hunt is joined, and out here, there is no one to hear how it ends."
+    },
+    {
+      "id": "resolution_hunt_success_02",
+      "type": "resolution",
+      "method": "hunt",
+      "success": true,
+      "tags": [
+        "animalhunt"
+      ],
+      "text": "The trail does what good trails do: it ends in something warm. Your quarry turns, sensing at last what has been walking behind it - and the wild, ever practical, settles in to watch its two predators sort out the evening's arithmetic."
+    },
+    {
+      "id": "resolution_hunt_failure_01",
+      "type": "resolution",
+      "method": "hunt",
+      "success": false,
+      "tags": [
+        "animalhunt"
+      ],
+      "text": "The trail thins, doubles back on itself, and dies somewhere in the dark - your quarry warier than the night suggested, or luckier. The wild owes you nothing, and tonight it pays exactly that. The hunger notes the failure, and files it."
+    },
+    {
+      "id": "resolution_hunt_twist_01",
+      "type": "resolution",
+      "method": "hunt",
+      "success": true,
+      "tags": [
+        "animalhunt",
+        "hunttwist"
+      ],
+      "text": "What steps out of the dark is not what you were hunting. It is larger, and it is unafraid, and it has clearly been aware of you for longer than you have been aware of it. The wild, it turns out, was running two hunts tonight. Yours was the second."
+    }
+  ]
+}
